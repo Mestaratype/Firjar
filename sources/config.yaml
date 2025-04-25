@@ -46,6 +46,7 @@ autohintOTF: false
 
 # These options give fine-grained control over how fontmake builds
 # the fonts.
+EraseOpenCornersFilter: false
 # flattenComponents: true
 # decomposeTransformedComponents: true
 # checkCompatibility: true
