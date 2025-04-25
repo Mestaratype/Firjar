@@ -7,7 +7,7 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - Firjar[wdth,wght].glyphs
+  - Firjar.glyphs
 axisOrder:
   - wdth
   - wght
