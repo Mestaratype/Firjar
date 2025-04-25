@@ -71,9 +71,9 @@ stat:
     tag: wdth
     values:
     - name: Condensed
-      value: 50
+      value: 70
     - name: Expanded
-      value: 150
+      value: 120
   - name: Weight
     tag: wght
     values:
