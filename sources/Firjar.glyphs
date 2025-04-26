@@ -72,6 +72,7 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Mappings";
 value = {
 wdth = {
