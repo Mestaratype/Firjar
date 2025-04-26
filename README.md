@@ -3,20 +3,13 @@
 ![Sample Image](image-title.png)
 
 [![][Fontbakery]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
-[![][Universal]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Firjar is a contemporary bilingual typeface Arabic and Latin scripts with precision and harmony. Its name, meaning compass in Arabic, reflects its design philosophy.
+Firjar is a contemporary Kufic-inspired and minimalist bilingual typeface, covering both Arabic and Latin scripts with precision and harmony. Its name, meaning compass in Arabic, reflects its design philosophy of guidance and balance.
 
-Firjar comes with modern curves and clean straight lines, Firjar offers a highly versatile system of styles.
-The type family includes a wide range of styles, spanning from  condensed to extended widths and from thin to black weights, making it ideal for everything from from bold headlines, branding and UI to editorial and display use.
+The concept of Firjar draws from the structure of a compass, built using quarter-circle curves combined with clean, straight lines. The type family spans a wide range of styles — from condensed to extended widths and from thin to black weights — making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
+
 
 ## Variable Font Axes
 
