@@ -72,7 +72,6 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
-disabled = 1;
 name = "Axis Mappings";
 value = {
 wdth = {
@@ -406,7 +405,7 @@ over = -8;
 pos = -240;
 }
 );
-name = Thin;
+name = "Condensed Thin";
 stemValues = (
 30,
 30,
@@ -508,7 +507,7 @@ over = -8;
 pos = -240;
 }
 );
-name = Black;
+name = "Condensed Black";
 stemValues = (
 170,
 170,
@@ -610,7 +609,7 @@ over = -8;
 pos = -240;
 }
 );
-name = ThinWide;
+name = "Expanded Thin";
 stemValues = (
 30,
 30,
@@ -712,7 +711,7 @@ over = -8;
 pos = -240;
 }
 );
-name = BlackWide;
+name = "Expanded Black";
 stemValues = (
 170,
 170,

@@ -72,6 +72,8 @@ stat:
     values:
     - name: Condensed
       value: 70
+    - nmae: Normal
+      value: 95
     - name: Expanded
       value: 120
   - name: Weight
