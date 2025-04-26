@@ -12,12 +12,19 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+Firjar is a contemporary bilingual typeface Arabic and Latin scripts with precision and harmony. Its name, meaning compass in Arabic, reflects its design philosophy.
 
-Don't hesitate to create images!
+Firjar comes with modern curves and clean straight lines, Firjar offers a highly versatile system of styles.
+The type family includes a wide range of styles, spanning from  condensed to extended widths and from thin to black weights, making it ideal for everything from from bold headlines, branding and UI to editorial and display use.
 
-![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+Firjar is also a variable font built with:*
+- 2 axes Weight (wght) and Width (wdth).
+
+![Sample Image](image1.png)
+![Sample Image](image2.png)
+![Sample Image](image3.png)
+![Sample Image](image4.png)
+![Sample Image](image5.png)
 
 ## About
 
