@@ -1,5 +1,6 @@
 ----
 # Firjar Font
+![Sample Image](image-title.png)
 
 [![][Fontbakery]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
 [![][Universal]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
@@ -17,18 +18,24 @@ Firjar is a contemporary bilingual typeface Arabic and Latin scripts with precis
 Firjar comes with modern curves and clean straight lines, Firjar offers a highly versatile system of styles.
 The type family includes a wide range of styles, spanning from  condensed to extended widths and from thin to black weights, making it ideal for everything from from bold headlines, branding and UI to editorial and display use.
 
-Firjar is also a variable font built with:*
-- 2 axes Weight (wght) and Width (wdth).
+## Variable Font Axes
+
+Firjar is also a variable font built with:
+
+Axis | Tag | Range | Default | Static Instances
+--- | --- | --- | --- | ---
+Weight | wght | 100 to 900 | 400 | Thin, ExtraLight, Light, Regular, Medium, Semibold, Bold, Black
+Width | wdth | 75 to 120 | 100 | Condensed, Regular, Expanded
+
+#### `wght` (Weight) Axis
+
+The `wght` axis spans Thin (100) to Black (900).
 
 ![Sample Image](image1.png)
 ![Sample Image](image2.png)
 ![Sample Image](image3.png)
 ![Sample Image](image4.png)
 ![Sample Image](image5.png)
-
-## About
-
-Description of you and/or organisation goes here.
 
 ## Building
 
@@ -42,15 +49,9 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at `https://mestaratype.github.io/Firjar/`.
 
-## Changelog
+## About
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+Description of you and/or organisation goes here.
 
 ## License
 
