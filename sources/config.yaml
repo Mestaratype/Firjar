@@ -72,7 +72,7 @@ stat:
     values:
     - name: Condensed
       value: 70
-    - nmae: Normal
+    - name: Normal
       value: 95
     - name: Expanded
       value: 120
