@@ -329,11 +329,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = 1050;
+value = 400;
 }
 );
 guides = (
@@ -431,11 +431,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = 1050;
+value = 400;
 }
 );
 guides = (
@@ -533,11 +533,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = 1050;
+value = 400;
 }
 );
 guides = (
@@ -635,11 +635,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 900;
 },
 {
 name = winDescent;
-value = 1050;
+value = 400;
 }
 );
 guides = (
