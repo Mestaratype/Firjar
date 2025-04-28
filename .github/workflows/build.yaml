@@ -79,6 +79,10 @@ jobs:
     name: Create and populate release
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
     if: contains(github.ref, 'refs/tags/')
     env:
       ZIP_NAME: ${{ needs.build.outputs.zip_name }}
