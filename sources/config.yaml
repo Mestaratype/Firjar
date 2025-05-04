@@ -101,10 +101,6 @@ stat:
       value: 800
     - name: Black
       value: 900
-outputDir: "../fonts"
-buildTTF: true
-buildOTF: false
-autohintTTF: false
 instances:
   Firjar[wdth,wght].ttf:
   - coordinates:
