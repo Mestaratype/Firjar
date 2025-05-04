@@ -38730,6 +38730,28 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+75 = 75;
+85 = 87.5;
+95 = 100;
+110 = 112.5;
+125 = 125;
+};
+wght = {
+30 = 100;
+38 = 200;
+49 = 300;
+63 = 400;
+81 = 600;
+104 = 700;
+133 = 800;
+170 = 900;
+};
+};
 }
 );
 name = variable;

@@ -72,8 +72,12 @@ stat:
     values:
     - name: Condensed
       value: 75
+    - name: SemiCondensed
+      value: 87.5
     - name: Normal
       value: 100
+    - name: SemiExpanded
+      value: 112.5
     - name: Expanded
       value: 125
   - name: Weight
@@ -89,8 +93,6 @@ stat:
       value: 400
       linkedValue: 700
       flags: 2
-    - name: Medium
-      value: 500
     - name: SemiBold
       value: 600
     - name: Bold
@@ -99,3 +101,105 @@ stat:
       value: 800
     - name: Black
       value: 900
+outputDir: "../fonts"
+buildTTF: true
+buildOTF: false
+autohintTTF: false
+instances:
+  Firjar[wdth,wght].ttf:
+  - coordinates:
+      wdth: 75
+      wght: 100
+  - coordinates:
+      wdth: 75
+      wght: 200
+  - coordinates:
+      wdth: 75
+      wght: 300
+  - coordinates:
+      wdth: 75
+      wght: 400
+  - coordinates:
+      wdth: 75
+      wght: 600
+  - coordinates:
+      wdth: 75
+      wght: 700
+  - coordinates:
+      wdth: 75
+      wght: 800
+  - coordinates:
+      wdth: 75
+      wght: 900
+  - coordinates:
+      wdth: 87.5
+      wght: 100
+  - coordinates:
+      wdth: 87.5
+      wght: 200
+  - coordinates:
+      wdth: 87.5
+      wght: 300
+  - coordinates:
+      wdth: 87.5
+      wght: 400
+  - coordinates:
+      wdth: 87.5
+      wght: 600
+  - coordinates:
+      wdth: 87.5
+      wght: 700
+  - coordinates:
+      wdth: 87.5
+      wght: 800
+  - coordinates:
+      wdth: 87.5
+      wght: 900
+  - coordinates:
+      wdth: 112.5
+      wght: 100
+  - coordinates:
+      wdth: 112.5
+      wght: 200
+  - coordinates:
+      wdth: 112.5
+      wght: 300
+  - coordinates:
+      wdth: 112.5
+      wght: 400
+  - coordinates:
+      wdth: 112.5
+      wght: 600
+  - coordinates:
+      wdth: 112.5
+      wght: 700
+  - coordinates:
+      wdth: 112.5
+      wght: 800
+  - coordinates:
+      wdth: 112.5
+      wght: 900
+  - coordinates:
+      wdth: 125
+      wght: 100
+  - coordinates:
+      wdth: 125
+      wght: 200
+  - coordinates:
+      wdth: 125
+      wght: 300
+  - coordinates:
+      wdth: 125
+      wght: 400
+  - coordinates:
+      wdth: 125
+      wght: 600
+  - coordinates:
+      wdth: 125
+      wght: 700
+  - coordinates:
+      wdth: 125
+      wght: 800
+  - coordinates:
+      wdth: 125
+      wght: 900
