@@ -71,11 +71,11 @@ stat:
     tag: wdth
     values:
     - name: Condensed
-      value: 70
+      value: 75
     - name: Normal
-      value: 95
+      value: 100
     - name: Expanded
-      value: 120
+      value: 125
   - name: Weight
     tag: wght
     values:
