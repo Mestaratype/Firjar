@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[17] Firjar[wdth,wght].ttf</summary>
+<details><summary>[18] Firjar[wdth,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
@@ -65,13 +65,13 @@ fontbakery version: 0.13.2
 
 
 
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its subfamily name should be 'Condensed Thin'.</p>
-<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Thin', rather than ''Condensed Thin''. If the default instance is 'Thin', NameID 17 is probably the problem.</p>
+* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its subfamily name should be 'Thin Cond'.</p>
+<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Thin', rather than ''Thin Cond''. If the default instance is 'Thin', NameID 17 is probably the problem.</p>
  [code: invalid-default-instance-subfamily-name]
 
 
 
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its postscript name should be 'Firjar-CondensedThin', instead of 'Firjar-Thin'.</p>
+* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its postscript name should be 'Firjar-ThinCond', instead of 'Firjar-Thin'.</p>
  [code: invalid-default-instance-postscript-name]
 
 
@@ -103,11 +103,335 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">When shaping the text 'ئ‍' with features: -init and shaping the text 'ئ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ب‍' with features: -init and shaping the text 'ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ت‍' with features: -init and shaping the text 'ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ث‍' with features: -init and shaping the text 'ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ج‍' with features: -init and shaping the text 'ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ح‍' with features: -init and shaping the text 'ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'خ‍' with features: -init and shaping the text 'خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'س‍' with features: -init and shaping the text 'س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ش‍' with features: -init and shaping the text 'ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ص‍' with features: -init and shaping the text 'ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ض‍' with features: -init and shaping the text 'ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ط‍' with features: -init and shaping the text 'ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ظ‍' with features: -init and shaping the text 'ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ع‍' with features: -init and shaping the text 'ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'غ‍' with features: -init and shaping the text 'غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ف‍' with features: -init and shaping the text 'ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ق‍' with features: -init and shaping the text 'ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ك‍' with features: -init and shaping the text 'ك‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ل‍' with features: -init and shaping the text 'ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'م‍' with features: -init and shaping the text 'م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ن‍' with features: -init and shaping the text 'ن‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ه‍' with features: -init and shaping the text 'ه‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">When shaping the text 'ى‍' with features: -init and shaping the text 'ى‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">When shaping the text 'ي‍' with features: -init and shaping the text 'ي‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ئ‍' with features: -medi and shaping the text '‍ئ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب‍' with features: -medi and shaping the text '‍ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت‍' with features: -medi and shaping the text '‍ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث‍' with features: -medi and shaping the text '‍ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج‍' with features: -medi and shaping the text '‍ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح‍' with features: -medi and shaping the text '‍ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ‍' with features: -medi and shaping the text '‍خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س‍' with features: -medi and shaping the text '‍س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش‍' with features: -medi and shaping the text '‍ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص‍' with features: -medi and shaping the text '‍ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض‍' with features: -medi and shaping the text '‍ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط‍' with features: -medi and shaping the text '‍ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ‍' with features: -medi and shaping the text '‍ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع‍' with features: -medi and shaping the text '‍ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ‍' with features: -medi and shaping the text '‍غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف‍' with features: -medi and shaping the text '‍ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق‍' with features: -medi and shaping the text '‍ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ك‍' with features: -medi and shaping the text '‍ك‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل‍' with features: -medi and shaping the text '‍ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م‍' with features: -medi and shaping the text '‍م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن‍' with features: -medi and shaping the text '‍ن‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ه‍' with features: -medi and shaping the text '‍ه‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">When shaping the text '‍ى‍' with features: -medi and shaping the text '‍ى‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ي‍' with features: -medi and shaping the text '‍ي‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍أ' with features: -fina and shaping the text '‍أ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ؤ' with features: -fina and shaping the text '‍ؤ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍إ' with features: -fina and shaping the text '‍إ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ئ' with features: -fina and shaping the text '‍ئ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ا' with features: -fina and shaping the text '‍ا', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍آ' with features: -fina and shaping the text '‍آ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب' with features: -fina and shaping the text '‍ب', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ة' with features: -fina and shaping the text '‍ة', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت' with features: -fina and shaping the text '‍ت', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث' with features: -fina and shaping the text '‍ث', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج' with features: -fina and shaping the text '‍ج', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح' with features: -fina and shaping the text '‍ح', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ' with features: -fina and shaping the text '‍خ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍د' with features: -fina and shaping the text '‍د', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ذ' with features: -fina and shaping the text '‍ذ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ر' with features: -fina and shaping the text '‍ر', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ز' with features: -fina and shaping the text '‍ز', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س' with features: -fina and shaping the text '‍س', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش' with features: -fina and shaping the text '‍ش', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص' with features: -fina and shaping the text '‍ص', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض' with features: -fina and shaping the text '‍ض', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط' with features: -fina and shaping the text '‍ط', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ' with features: -fina and shaping the text '‍ظ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع' with features: -fina and shaping the text '‍ع', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ' with features: -fina and shaping the text '‍غ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف' with features: -fina and shaping the text '‍ف', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق' with features: -fina and shaping the text '‍ق', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ك' with features: -fina and shaping the text '‍ك', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل' with features: -fina and shaping the text '‍ل', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م' with features: -fina and shaping the text '‍م', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن' with features: -fina and shaping the text '‍ن', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ه' with features: -fina and shaping the text '‍ه', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍و' with features: -fina and shaping the text '‍و', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ى' with features: -fina and shaping the text '‍ى', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ي' with features: -fina and shaping the text '‍ي', the output is expected to be different, but was the same</td>
 <td align="left">ar_Arab (Arabic)</td>
 </tr>
 <tr>
@@ -123,11 +447,547 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">When shaping the text 'ئ‍' with features: -init and shaping the text 'ئ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ب‍' with features: -init and shaping the text 'ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'پ‍' with features: -init and shaping the text 'پ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ت‍' with features: -init and shaping the text 'ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ث‍' with features: -init and shaping the text 'ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ج‍' with features: -init and shaping the text 'ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'چ‍' with features: -init and shaping the text 'چ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ح‍' with features: -init and shaping the text 'ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'خ‍' with features: -init and shaping the text 'خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'س‍' with features: -init and shaping the text 'س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ش‍' with features: -init and shaping the text 'ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ص‍' with features: -init and shaping the text 'ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ض‍' with features: -init and shaping the text 'ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ط‍' with features: -init and shaping the text 'ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ظ‍' with features: -init and shaping the text 'ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ع‍' with features: -init and shaping the text 'ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'غ‍' with features: -init and shaping the text 'غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ف‍' with features: -init and shaping the text 'ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ق‍' with features: -init and shaping the text 'ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ک‍' with features: -init and shaping the text 'ک‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ل‍' with features: -init and shaping the text 'ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'م‍' with features: -init and shaping the text 'م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ن‍' with features: -init and shaping the text 'ن‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ه‍' with features: -init and shaping the text 'ه‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ی‍' with features: -init and shaping the text 'ی‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ئ‍' with features: -medi and shaping the text '‍ئ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب‍' with features: -medi and shaping the text '‍ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍پ‍' with features: -medi and shaping the text '‍پ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت‍' with features: -medi and shaping the text '‍ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث‍' with features: -medi and shaping the text '‍ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج‍' with features: -medi and shaping the text '‍ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍چ‍' with features: -medi and shaping the text '‍چ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح‍' with features: -medi and shaping the text '‍ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ‍' with features: -medi and shaping the text '‍خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س‍' with features: -medi and shaping the text '‍س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش‍' with features: -medi and shaping the text '‍ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص‍' with features: -medi and shaping the text '‍ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض‍' with features: -medi and shaping the text '‍ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط‍' with features: -medi and shaping the text '‍ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ‍' with features: -medi and shaping the text '‍ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع‍' with features: -medi and shaping the text '‍ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ‍' with features: -medi and shaping the text '‍غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف‍' with features: -medi and shaping the text '‍ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق‍' with features: -medi and shaping the text '‍ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ک‍' with features: -medi and shaping the text '‍ک‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل‍' with features: -medi and shaping the text '‍ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م‍' with features: -medi and shaping the text '‍م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن‍' with features: -medi and shaping the text '‍ن‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ه‍' with features: -medi and shaping the text '‍ه‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ی‍' with features: -medi and shaping the text '‍ی‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍آ' with features: -fina and shaping the text '‍آ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ا' with features: -fina and shaping the text '‍ا', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍أ' with features: -fina and shaping the text '‍أ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ؤ' with features: -fina and shaping the text '‍ؤ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ئ' with features: -fina and shaping the text '‍ئ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب' with features: -fina and shaping the text '‍ب', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍پ' with features: -fina and shaping the text '‍پ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت' with features: -fina and shaping the text '‍ت', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث' with features: -fina and shaping the text '‍ث', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج' with features: -fina and shaping the text '‍ج', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍چ' with features: -fina and shaping the text '‍چ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح' with features: -fina and shaping the text '‍ح', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ' with features: -fina and shaping the text '‍خ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍د' with features: -fina and shaping the text '‍د', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ذ' with features: -fina and shaping the text '‍ذ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ر' with features: -fina and shaping the text '‍ر', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ز' with features: -fina and shaping the text '‍ز', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ژ' with features: -fina and shaping the text '‍ژ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س' with features: -fina and shaping the text '‍س', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش' with features: -fina and shaping the text '‍ش', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص' with features: -fina and shaping the text '‍ص', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض' with features: -fina and shaping the text '‍ض', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط' with features: -fina and shaping the text '‍ط', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ' with features: -fina and shaping the text '‍ظ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع' with features: -fina and shaping the text '‍ع', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ' with features: -fina and shaping the text '‍غ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف' with features: -fina and shaping the text '‍ف', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق' with features: -fina and shaping the text '‍ق', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ک' with features: -fina and shaping the text '‍ک', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل' with features: -fina and shaping the text '‍ل', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م' with features: -fina and shaping the text '‍م', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن' with features: -fina and shaping the text '‍ن', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍و' with features: -fina and shaping the text '‍و', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ه' with features: -fina and shaping the text '‍ه', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ة' with features: -fina and shaping the text '‍ة', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ی' with features: -fina and shaping the text '‍ی', the output is expected to be different, but was the same</td>
+<td align="left">fa_Arab (Persian)</td>
+</tr>
+<tr>
+<td align="left">Positional forms for Arabic letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ب‍' with features: -init and shaping the text 'ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'پ‍' with features: -init and shaping the text 'پ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ت‍' with features: -init and shaping the text 'ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ٹ‍' with features: -init and shaping the text 'ٹ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ث‍' with features: -init and shaping the text 'ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ج‍' with features: -init and shaping the text 'ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'چ‍' with features: -init and shaping the text 'چ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ح‍' with features: -init and shaping the text 'ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'خ‍' with features: -init and shaping the text 'خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'س‍' with features: -init and shaping the text 'س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ش‍' with features: -init and shaping the text 'ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ص‍' with features: -init and shaping the text 'ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ض‍' with features: -init and shaping the text 'ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ط‍' with features: -init and shaping the text 'ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ظ‍' with features: -init and shaping the text 'ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ع‍' with features: -init and shaping the text 'ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'غ‍' with features: -init and shaping the text 'غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ف‍' with features: -init and shaping the text 'ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ق‍' with features: -init and shaping the text 'ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ک‍' with features: -init and shaping the text 'ک‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ل‍' with features: -init and shaping the text 'ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'م‍' with features: -init and shaping the text 'م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ن‍' with features: -init and shaping the text 'ن‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">When shaping the text 'ہ‍' with features: -init and shaping the text 'ہ‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
 <td align="left">When shaping the text 'ھ‍' with features: -init and shaping the text 'ھ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'ی‍' with features: -init and shaping the text 'ی‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب‍' with features: -medi and shaping the text '‍ب‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍پ‍' with features: -medi and shaping the text '‍پ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت‍' with features: -medi and shaping the text '‍ت‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ٹ‍' with features: -medi and shaping the text '‍ٹ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث‍' with features: -medi and shaping the text '‍ث‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج‍' with features: -medi and shaping the text '‍ج‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍چ‍' with features: -medi and shaping the text '‍چ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح‍' with features: -medi and shaping the text '‍ح‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ‍' with features: -medi and shaping the text '‍خ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س‍' with features: -medi and shaping the text '‍س‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش‍' with features: -medi and shaping the text '‍ش‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص‍' with features: -medi and shaping the text '‍ص‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض‍' with features: -medi and shaping the text '‍ض‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط‍' with features: -medi and shaping the text '‍ط‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ‍' with features: -medi and shaping the text '‍ظ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع‍' with features: -medi and shaping the text '‍ع‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ‍' with features: -medi and shaping the text '‍غ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف‍' with features: -medi and shaping the text '‍ف‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق‍' with features: -medi and shaping the text '‍ق‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ک‍' with features: -medi and shaping the text '‍ک‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل‍' with features: -medi and shaping the text '‍ل‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م‍' with features: -medi and shaping the text '‍م‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن‍' with features: -medi and shaping the text '‍ن‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -139,7 +999,151 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">When shaping the text '‍ی‍' with features: -medi and shaping the text '‍ی‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ا' with features: -fina and shaping the text '‍ا', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ب' with features: -fina and shaping the text '‍ب', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍پ' with features: -fina and shaping the text '‍پ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ت' with features: -fina and shaping the text '‍ت', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ٹ' with features: -fina and shaping the text '‍ٹ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ث' with features: -fina and shaping the text '‍ث', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ج' with features: -fina and shaping the text '‍ج', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍چ' with features: -fina and shaping the text '‍چ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ح' with features: -fina and shaping the text '‍ح', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍خ' with features: -fina and shaping the text '‍خ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍د' with features: -fina and shaping the text '‍د', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ڈ' with features: -fina and shaping the text '‍ڈ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ذ' with features: -fina and shaping the text '‍ذ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ر' with features: -fina and shaping the text '‍ر', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ڑ' with features: -fina and shaping the text '‍ڑ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ز' with features: -fina and shaping the text '‍ز', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ژ' with features: -fina and shaping the text '‍ژ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍س' with features: -fina and shaping the text '‍س', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ش' with features: -fina and shaping the text '‍ش', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ص' with features: -fina and shaping the text '‍ص', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ض' with features: -fina and shaping the text '‍ض', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ط' with features: -fina and shaping the text '‍ط', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ظ' with features: -fina and shaping the text '‍ظ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ع' with features: -fina and shaping the text '‍ع', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍غ' with features: -fina and shaping the text '‍غ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ف' with features: -fina and shaping the text '‍ف', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ق' with features: -fina and shaping the text '‍ق', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ک' with features: -fina and shaping the text '‍ک', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ل' with features: -fina and shaping the text '‍ل', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍م' with features: -fina and shaping the text '‍م', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ن' with features: -fina and shaping the text '‍ن', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍و' with features: -fina and shaping the text '‍و', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ہ' with features: -fina and shaping the text '‍ہ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">When shaping the text '‍ھ' with features: -fina and shaping the text '‍ھ', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ی' with features: -fina and shaping the text '‍ی', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍ے' with features: -fina and shaping the text '‍ے', the output is expected to be different, but was the same</td>
 <td align="left">ur_Arab (Urdu)</td>
 </tr>
 </tbody>
@@ -292,6 +1296,65 @@ fontbakery version: 0.13.2
 </tbody>
 </table>
  [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Font names are incorrect:</p>
+<table>
+<thead>
+<tr>
+<th align="left">nameID</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Family Name</td>
+<td align="left"><strong>Firjar Thin Cond</strong></td>
+<td align="left"><strong>Firjar Condensed Thin</strong></td>
+</tr>
+<tr>
+<td align="left">Subfamily Name</td>
+<td align="left">Regular</td>
+<td align="left">Regular</td>
+</tr>
+<tr>
+<td align="left">Full Name</td>
+<td align="left"><strong>Firjar Thin Cond</strong></td>
+<td align="left"><strong>Firjar Condensed Thin</strong></td>
+</tr>
+<tr>
+<td align="left">Postscript Name</td>
+<td align="left"><strong>Firjar-ThinCond</strong></td>
+<td align="left"><strong>Firjar-CondensedThin</strong></td>
+</tr>
+<tr>
+<td align="left">Typographic Family Name</td>
+<td align="left">Firjar</td>
+<td align="left">Firjar</td>
+</tr>
+<tr>
+<td align="left">Typographic Subfamily Name</td>
+<td align="left"><strong>Thin Cond</strong></td>
+<td align="left"><strong>Condensed Thin</strong></td>
+</tr>
+</tbody>
+</table>
+ [code: bad-names]
 
 
 
@@ -975,11 +2038,23 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'W': [0, 1] in wght=100,wdth=75, [1, 0] in wght=100,wdth=125.
+<pre><code>- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=500,wdth=75, [0, 2, 1, 3] in wght=614,wdth=75.
 
-- Contour order differs in glyph 'W': [0, 1] in wght=100,wdth=125, [1, 0] in wght=442,wdth=75.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=900,wdth=75, [0, 2, 1, 3] in wght=442,wdth=120.
 
-- Contour order differs in glyph 'W': [0, 1] in wght=900,wdth=75, [1, 0] in wght=442,wdth=125.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=442,wdth=120, [0, 2, 1, 3] in wght=614,wdth=125.
+
+- Contour order differs in glyph 'W': [0, 1] in wght=100,wdth=75, [1, 0] in wght=100,wdth=125.
+
+- Contour order differs in glyph 'W': [0, 1] in wght=100,wdth=125, [1, 0] in wght=500,wdth=75.
+
+- Contour order differs in glyph 'W': [0, 1] in wght=900,wdth=75, [1, 0] in wght=442,wdth=120.
+
+- Contour order differs in glyph 'k': [0, 1, 2] in wght=100,wdth=75, [0, 2, 1] in wght=100,wdth=125.
+
+- Contour order differs in glyph 'k': [0, 1, 2] in wght=100,wdth=125, [0, 2, 1] in wght=500,wdth=75.
+
+- Contour order differs in glyph 'k': [0, 1, 2] in wght=900,wdth=75, [0, 2, 1] in wght=442,wdth=120.
 </code></pre>
  [code: interpolation-issues]
 
@@ -999,39 +2074,55 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* S (U+0053): L&lt;&lt;315.0,335.0&gt;--&lt;315.0,305.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* S (U+0053): L&lt;&lt;194.0,335.0&gt;--&lt;194.0,305.0&gt;&gt; has the same coordinates as a previous segment.
 
-* s (U+0073): L&lt;&lt;247.0,235.0&gt;--&lt;247.0,205.0&gt;&gt; has the same coordinates as a previous segment.
+* s (U+0073): L&lt;&lt;150.0,235.0&gt;--&lt;150.0,205.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0635 (U+0635): L&lt;&lt;476.0,360.0&gt;--&lt;506.0,360.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062C (U+062C): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0635.fina: L&lt;&lt;476.0,360.0&gt;--&lt;506.0,360.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062C.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0636 (U+0636): L&lt;&lt;476.0,360.0&gt;--&lt;506.0,360.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0686 (U+0686): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0636.fina: L&lt;&lt;476.0,360.0&gt;--&lt;506.0,360.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0686.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0637.medi: L&lt;&lt;27.0,0.0&gt;--&lt;27.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D (U+062D): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0637.init: L&lt;&lt;27.0,0.0&gt;--&lt;27.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.alt: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0638.medi: L&lt;&lt;27.0,0.0&gt;--&lt;27.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0638.init: L&lt;&lt;27.0,0.0&gt;--&lt;27.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.fina.alt: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0639.fina: L&lt;&lt;517.0,30.0&gt;--&lt;517.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062E (U+062E): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0639.medi: L&lt;&lt;462.0,30.0&gt;--&lt;462.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062E.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni063A.fina: L&lt;&lt;517.0,30.0&gt;--&lt;517.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0633.medi: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni063A.medi: L&lt;&lt;462.0,30.0&gt;--&lt;462.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0633.init: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni066F.fina: L&lt;&lt;573.0,30.0&gt;--&lt;573.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0634.medi: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0642.fina: L&lt;&lt;573.0,30.0&gt;--&lt;573.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0634.init: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0664 (U+0664): L&lt;&lt;424.0,360.0&gt;--&lt;424.0,330.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0637.medi: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0637.init: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0638.medi: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0638.init: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0639.fina: L&lt;&lt;381.0,30.0&gt;--&lt;381.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0639.medi: L&lt;&lt;336.0,30.0&gt;--&lt;336.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni063A.fina: L&lt;&lt;381.0,30.0&gt;--&lt;381.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni063A.medi: L&lt;&lt;336.0,30.0&gt;--&lt;336.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0664 (U+0664): L&lt;&lt;390.0,360.0&gt;--&lt;390.0,330.0&gt;&gt; has the same coordinates as a previous segment.
 
 * ellipsis (U+2026): B&lt;&lt;88.0,-3.0&gt;-&lt;76.0,-3.0&gt;-&lt;68.0,5.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -1097,8 +2188,6 @@ fontbakery version: 0.13.2
 
 * quotedblbase (U+201E): B&lt;&lt;98.0,-63.5&gt;-&lt;83.0,-91.0&gt;-&lt;60.0,-102.0&gt;&gt; has the same coordinates as a previous segment.
 
-* guillemotleft (U+00AB): L&lt;&lt;277.0,47.0&gt;--&lt;257.0,25.0&gt;&gt; has the same coordinates as a previous segment.
-
 * guillemotleft (U+00AB): L&lt;&lt;257.0,25.0&gt;--&lt;60.0,214.0&gt;&gt; has the same coordinates as a previous segment.
 
 * guillemotleft (U+00AB): L&lt;&lt;60.0,214.0&gt;--&lt;60.0,267.0&gt;&gt; has the same coordinates as a previous segment.
@@ -1113,6 +2202,10 @@ fontbakery version: 0.13.2
 
 * guillemotleft (U+00AB): L&lt;&lt;90.0,226.0&gt;--&lt;277.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 
+* guillemotleft (U+00AB): L&lt;&lt;277.0,47.0&gt;--&lt;257.0,25.0&gt;&gt; has the same coordinates as a previous segment.
+
+* guillemotright (U+00BB): L&lt;&lt;80.0,25.0&gt;--&lt;60.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+
 * guillemotright (U+00BB): L&lt;&lt;60.0,47.0&gt;--&lt;247.0,226.0&gt;&gt; has the same coordinates as a previous segment.
 
 * guillemotright (U+00BB): L&lt;&lt;247.0,226.0&gt;--&lt;247.0,255.0&gt;&gt; has the same coordinates as a previous segment.
@@ -1126,8 +2219,6 @@ fontbakery version: 0.13.2
 * guillemotright (U+00BB): L&lt;&lt;277.0,267.0&gt;--&lt;277.0,214.0&gt;&gt; has the same coordinates as a previous segment.
 
 * guillemotright (U+00BB): L&lt;&lt;277.0,214.0&gt;--&lt;80.0,25.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;80.0,25.0&gt;--&lt;60.0,47.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -1164,6 +2255,294 @@ fontbakery version: 0.13.2
 - twodotsverticalabovear
 
 - twodotsverticalbelowar
+
+- uni0622.fina
+
+- uni0623.fina
+
+- uni0624.fina
+
+- uni0625.fina
+
+- uni0626.fina
+
+- uni0626.init
+
+- uni0626.medi
+
+- uni0627.fina
+
+- uni0628.fina
+
+- uni0628.init
+
+- uni0628.medi
+
+- uni0629.fina
+
+- uni062A.fina
+
+- uni062A.init
+
+- uni062A.medi
+
+- uni062B.fina
+
+- uni062B.init
+
+- uni062B.medi
+
+- uni062C.fina
+
+- uni062C.init
+
+- uni062C.medi
+
+- uni062D.fina
+
+- uni062D.fina.alt
+
+- uni062D.init
+
+- uni062D.medi
+
+- uni062E.fina
+
+- uni062E.init
+
+- uni062E.medi
+
+- uni062F.fina
+
+- uni0630.fina
+
+- uni0631.fina
+
+- uni0632.fina
+
+- uni0633.fina
+
+- uni0633.init
+
+- uni0633.medi
+
+- uni0634.fina
+
+- uni0634.init
+
+- uni0634.medi
+
+- uni0635.fina
+
+- uni0635.init
+
+- uni0635.medi
+
+- uni0636.fina
+
+- uni0636.init
+
+- uni0636.medi
+
+- uni0637.fina
+
+- uni0637.init
+
+- uni0637.medi
+
+- uni0638.fina
+
+- uni0638.init
+
+- uni0638.medi
+
+- uni0639.fina
+
+- uni0639.init
+
+- uni0639.medi
+
+- uni063A.fina
+
+- uni063A.init
+
+- uni063A.medi
+
+- uni0641.fina
+
+- uni0641.init
+
+- uni0641.medi
+
+- uni0642.fina
+
+- uni0642.init
+
+- uni0642.medi
+
+- uni0643.fina
+
+- uni0643.init
+
+- uni0643.medi
+
+- uni0644.fina
+
+- uni0644.init
+
+- uni0644.medi
+
+- uni06440622
+
+- uni06440622.fina
+
+- uni06440623
+
+- uni06440623.fina
+
+- uni06440625
+
+- uni06440625.fina
+
+- uni06440627
+
+- uni06440627.fina
+
+- uni06440671
+
+- uni06440671.fina
+
+- uni0645.fina
+
+- uni0645.init
+
+- uni0645.medi
+
+- uni0646.fina
+
+- uni0646.init
+
+- uni0646.medi
+
+- uni0647.fina
+
+- uni0647.medi
+
+- uni0648.fina
+
+- uni0649.fina
+
+- uni064A.fina
+
+- uni064A.init
+
+- uni064A.medi
+
+- uni0651064B
+
+- uni0651064C
+
+- uni0651064D
+
+- uni0651064E
+
+- uni0651064F
+
+- uni06510650
+
+- uni06510670
+
+- uni0654064B
+
+- uni0654064C
+
+- uni0654064E
+
+- uni0654064F
+
+- uni06540652
+
+- uni0655064D
+
+- uni06550650
+
+- uni066E.fina
+
+- uni066E.init
+
+- uni066E.medi
+
+- uni066F.fina
+
+- uni0671.fina
+
+- uni0679.fina
+
+- uni0679.init
+
+- uni0679.medi
+
+- uni067E.fina
+
+- uni067E.init
+
+- uni067E.medi
+
+- uni0686.fina
+
+- uni0686.init
+
+- uni0686.medi
+
+- uni0688.fina
+
+- uni068E.fina
+
+- uni0691.fina
+
+- uni0698.fina
+
+- uni06A1.fina
+
+- uni06A1.init
+
+- uni06A1.medi
+
+- uni06A4.fina
+
+- uni06A4.init
+
+- uni06A4.medi
+
+- uni06A9.fina
+
+- uni06A9.init
+
+- uni06A9.medi
+
+- uni06BA.fina
+
+- uni06C1.fina
+
+- uni06C2.fina
+
+- uni06C3.fina
+
+- uni06CA.fina
+
+- uni06CC.fina
+
+- uni06CC.init
+
+- uni06CC.medi
+
+- uni06CF.fina
+
+- uni06D2.fina
+
+- uni06D3.fina
+
+- uni06D5.fina
 
 - uni06F4.urdu
 
@@ -1211,18 +2590,18 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: yezidi, thaana, nko, arabic, hanifi-rohingya, garay, syriac</li>
+<li>U+060C ARABIC COMMA: try adding one of: thaana, nko, garay, hanifi-rohingya, arabic, yezidi, syriac</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: yezidi, thaana, nko, arabic, hanifi-rohingya, garay, syriac</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: yezidi, thaana, nko, adlam, arabic, hanifi-rohingya, garay, syriac</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: thaana, nko, garay, hanifi-rohingya, arabic, yezidi, syriac</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: thaana, nko, garay, hanifi-rohingya, adlam, arabic, yezidi, syriac</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -1242,7 +2621,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: mandaic, adlam, old-uyghur, arabic, psalter-pahlavi, sogdian, hanifi-rohingya, manichaean, syriac</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: hanifi-rohingya, adlam, manichaean, sogdian, arabic, mandaic, syriac, old-uyghur, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1266,19 +2645,19 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: yezidi, thaana, arabic, hanifi-rohingya, indic-siyaq-numbers, syriac</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, thaana, arabic, indic-siyaq-numbers, syriac</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, syriac, nko, arabic</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, hanifi-rohingya, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, arabic, yezidi, syriac, indic-siyaq-numbers</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, thaana, nko, arabic</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -1304,19 +2683,19 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 </ul>
@@ -1357,37 +2736,21 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* i (U+0069): X=93.0,Y=639.0 (should be at cap-height 640?)
+<pre><code>* i (U+0069): X=48.0,Y=639.0 (should be at cap-height 640?)
 
-* uni0643.medi: X=250.0,Y=642.0 (should be at cap-height 640?)
+* o (U+006F): X=94.0,Y=430.5 (should be at x-height 430?)
 
-* uni0643.medi: X=374.0,Y=642.0 (should be at cap-height 640?)
+* o (U+006F): X=236.0,Y=430.5 (should be at x-height 430?)
 
-* uni0643.init: X=250.0,Y=642.0 (should be at cap-height 640?)
+* uni0664 (U+0664): X=260.0,Y=638.0 (should be at cap-height 640?)
 
-* uni0643.init: X=374.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9 (U+06A9): X=440.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9 (U+06A9): X=564.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.fina: X=440.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.fina: X=564.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.medi: X=250.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.medi: X=374.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.init: X=250.0,Y=642.0 (should be at cap-height 640?)
-
-* uni06A9.init: X=374.0,Y=642.0 (should be at cap-height 640?)
-
-* uni0664 (U+0664): X=262.0,Y=638.0 (should be at cap-height 640?)
-
-* uni0664 (U+0664): X=424.0,Y=638.0 (should be at cap-height 640?)
+* uni0664 (U+0664): X=390.0,Y=638.0 (should be at cap-height 640?)
 
 * uni0668 (U+0668): X=284.0,Y=641.0 (should be at cap-height 640?)
+
+* uni0668 (U+0668): X=284.0,Y=641.0 (should be at cap-height 640?)
+
+* uni06F8 (U+06F8): X=284.0,Y=641.0 (should be at cap-height 640?)
 
 * uni06F8 (U+06F8): X=284.0,Y=641.0 (should be at cap-height 640?)
 
@@ -1406,6 +2769,24 @@ definitions.</p>
 * uni0656 (U+0656): X=5.0,Y=-1.0 (should be at baseline 0?)
 
 * uni0656 (U+0656): X=25.0,Y=-1.0 (should be at baseline 0?)
+
+* uni0655 (U+0655): X=30.0,Y=2.0 (should be at baseline 0?)
+
+* uni0655 (U+0655): X=52.0,Y=2.0 (should be at baseline 0?)
+
+* uni0655 (U+0655): X=30.0,Y=2.0 (should be at baseline 0?)
+
+* uni06550650: X=30.0,Y=2.0 (should be at baseline 0?)
+
+* uni06550650: X=52.0,Y=2.0 (should be at baseline 0?)
+
+* uni06550650: X=30.0,Y=2.0 (should be at baseline 0?)
+
+* uni0655064D: X=30.0,Y=2.0 (should be at baseline 0?)
+
+* uni0655064D: X=52.0,Y=2.0 (should be at baseline 0?)
+
+* uni0655064D: X=30.0,Y=2.0 (should be at baseline 0?)
 </code></pre>
  [code: found-misalignments]
 
@@ -1459,7 +2840,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 6 | 11 | 91 | 7 | 121 | 0 | 
+| 0 | 0 | 7 | 11 | 91 | 7 | 120 | 0 | 
 | 0% | 0% | 3% | 5% | 39% | 3% | 51% | 0% | 
 
 
