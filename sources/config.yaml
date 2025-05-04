@@ -103,99 +103,203 @@ stat:
       value: 900
 instances:
   Firjar[wdth,wght].ttf:
-  - coordinates:
+  - familyName: "Firjar Condensed"
+    styleName: "Thin"
+    coordinates:
       wdth: 75
       wght: 100
-  - coordinates:
+  - familyName: "Firjar Condensed"
+    styleName: "ExtraLight"
+    coordinates:
       wdth: 75
       wght: 200
+  - familyName: "Firjar Condensed"
+    styleName: "Light"
   - coordinates:
       wdth: 75
       wght: 300
+  - familyName: "Firjar Condensed"
+    styleName: "Regular"
   - coordinates:
       wdth: 75
       wght: 400
+  - familyName: "Firjar Condensed"
+    styleName: "SemiBold"
   - coordinates:
       wdth: 75
       wght: 600
+  - familyName: "Firjar Condensed"
+    styleName: "Bold"
   - coordinates:
       wdth: 75
       wght: 700
+  - familyName: "Firjar Condensed"
+    styleName: "ExtraBold"
   - coordinates:
       wdth: 75
       wght: 800
+  - familyName: "Firjar Condensed"
+    styleName: "Black"
   - coordinates:
       wdth: 75
       wght: 900
+  - familyName: "Firjar SemiCondensed"
+    styleName: "Thin"
   - coordinates:
       wdth: 87.5
       wght: 100
+  - familyName: "Firjar SemiCondensed"
+    styleName: "ExtraLight"
   - coordinates:
       wdth: 87.5
       wght: 200
+  - familyName: "Firjar SemiCondensed"
+    styleName: "Light"
   - coordinates:
       wdth: 87.5
       wght: 300
+  - familyName: "Firjar SemiCondensed"
+    styleName: "Regular"
   - coordinates:
       wdth: 87.5
       wght: 400
+  - familyName: "Firjar SemiCondensed"
+    styleName: "SemiBold"
   - coordinates:
       wdth: 87.5
       wght: 600
+  - familyName: "Firjar SemiCondensed"
+    styleName: "Bold"
   - coordinates:
       wdth: 87.5
       wght: 700
+  - familyName: "Firjar SemiCondensed"
+    styleName: "ExtraBold"
   - coordinates:
       wdth: 87.5
       wght: 800
+  - familyName: "Firjar SemiCondensed"
+    styleName: "Black"
   - coordinates:
       wdth: 87.5
       wght: 900
+  - familyName: "Firjar"
+    styleName: "Thin"
+  - coordinates:
+      wdth: 100
+      wght: 100
+  - familyName: "Firjar"
+    styleName: "ExtraLight"
+  - coordinates:
+      wdth: 100
+      wght: 200
+  - familyName: "Firjar"
+    styleName: "Light"
+  - coordinates:
+      wdth: 100
+      wght: 300
+  - familyName: "Firjar"
+    styleName: "Regular"
+  - coordinates:
+      wdth: 100
+      wght: 400
+  - familyName: "Firjar"
+    styleName: "SemiBold"
+  - coordinates:
+      wdth: 100
+      wght: 600
+  - familyName: "Firjar"
+    styleName: "Bold"
+  - coordinates:
+      wdth: 100
+      wght: 700
+  - familyName: "Firjar"
+    styleName: "ExtarBold"
+  - coordinates:
+      wdth: 100
+      wght: 800
+  - familyName: "Firjar"
+    styleName: "Black"
+  - coordinates:
+      wdth: 100
+      wght: 900
+  - familyName: "Firjar SemiExpanded"
+    styleName: "Thin"
   - coordinates:
       wdth: 112.5
       wght: 100
+  - familyName: "Firjar SemiExpanded"
+    styleName: "ExtraLight"
   - coordinates:
       wdth: 112.5
       wght: 200
+  - familyName: "Firjar SemiExpanded"
+    styleName: "Light"
   - coordinates:
       wdth: 112.5
       wght: 300
+  - familyName: "Firjar SemiExpanded"
+    styleName: "Regular"
   - coordinates:
       wdth: 112.5
       wght: 400
+  - familyName: "Firjar SemiExpanded"
+    styleName: "SemiBold"
   - coordinates:
       wdth: 112.5
       wght: 600
+  - familyName: "Firjar SemiExpanded"
+    styleName: "Bold"
   - coordinates:
       wdth: 112.5
       wght: 700
+  - familyName: "Firjar SemiExpanded"
+    styleName: "ExtarBold"
   - coordinates:
       wdth: 112.5
       wght: 800
+  - familyName: "Firjar SemiExpanded"
+    styleName: "Black"
   - coordinates:
       wdth: 112.5
       wght: 900
+  - familyName: "Firjar Expanded"
+    styleName: "Thin"
   - coordinates:
       wdth: 125
       wght: 100
+  - familyName: "Firjar Expanded"
+    styleName: "ExtraLight"
   - coordinates:
       wdth: 125
       wght: 200
+  - familyName: "Firjar Expanded"
+    styleName: "Light"
   - coordinates:
       wdth: 125
       wght: 300
+  - familyName: "Firjar Expanded"
+    styleName: "Regular"
   - coordinates:
       wdth: 125
       wght: 400
+  - familyName: "Firjar Expanded"
+    styleName: "SemiBold"
   - coordinates:
       wdth: 125
       wght: 600
+  - familyName: "Firjar Expanded"
+    styleName: "Bold"
   - coordinates:
       wdth: 125
       wght: 700
+  - familyName: "Firjar Expanded"
+    styleName: "ExtraBold"
   - coordinates:
       wdth: 125
       wght: 800
+  - familyName: "Firjar Expanded"
+    styleName: "Black"
   - coordinates:
       wdth: 125
       wght: 900
