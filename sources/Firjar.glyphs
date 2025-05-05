@@ -300,6 +300,19 @@ value = 990;
 {
 name = winDescent;
 value = 400;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
 }
 );
 guides = (
@@ -405,6 +418,19 @@ value = 990;
 {
 name = winDescent;
 value = 400;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 guides = (
@@ -510,6 +536,19 @@ value = 990;
 {
 name = winDescent;
 value = 400;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
 }
 );
 guides = (
@@ -615,6 +654,19 @@ value = 990;
 {
 name = winDescent;
 value = 400;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
 }
 );
 guides = (
@@ -38730,28 +38782,6 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
-},
-{
-name = "Axis Mappings";
-value = {
-wdth = {
-75 = 75;
-85 = 87.5;
-95 = 100;
-110 = 112.5;
-125 = 125;
-};
-wght = {
-30 = 100;
-38 = 200;
-49 = 300;
-63 = 400;
-81 = 600;
-104 = 700;
-133 = 800;
-170 = 900;
-};
-};
 }
 );
 name = variable;
@@ -38761,6 +38791,21 @@ type = variable;
 axesValues = (
 30,
 75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 1;
@@ -38784,6 +38829,21 @@ widthClass = 3;
 axesValues = (
 38,
 75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.94286;
@@ -38810,6 +38870,21 @@ axesValues = (
 49,
 75
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.86429;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.13571;
@@ -38835,6 +38910,21 @@ axesValues = (
 63,
 75
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.76429;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.23571;
@@ -38857,6 +38947,21 @@ widthClass = 3;
 axesValues = (
 81,
 75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.63571;
@@ -38883,6 +38988,21 @@ axesValues = (
 104,
 75
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.47143;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.52857;
@@ -38907,6 +39027,21 @@ widthClass = 3;
 axesValues = (
 133,
 75
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.26429;
@@ -38933,6 +39068,21 @@ axesValues = (
 170,
 75
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 75;
+}
+);
+}
+);
 instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 1;
 };
@@ -38955,6 +39105,21 @@ widthClass = 3;
 axesValues = (
 30,
 85
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.8;
@@ -38979,6 +39144,21 @@ widthClass = 4;
 axesValues = (
 38,
 85
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.75429;
@@ -39007,6 +39187,21 @@ axesValues = (
 49,
 85
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.69143;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.02714;
@@ -39034,6 +39229,21 @@ axesValues = (
 63,
 85
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.61143;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.04714;
@@ -39058,6 +39268,21 @@ widthClass = 4;
 axesValues = (
 81,
 85
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.50857;
@@ -39086,6 +39311,21 @@ axesValues = (
 104,
 85
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.37714;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.10571;
@@ -39112,6 +39352,21 @@ widthClass = 4;
 axesValues = (
 133,
 85
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.21143;
@@ -39140,6 +39395,21 @@ axesValues = (
 170,
 85
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 87.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.2;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.8;
@@ -39164,6 +39434,21 @@ axesValues = (
 30,
 96
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
@@ -39186,6 +39471,21 @@ weightClass = 100;
 axesValues = (
 38,
 96
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.54686;
@@ -39213,6 +39513,21 @@ axesValues = (
 49,
 96
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.50129;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.057;
@@ -39239,6 +39554,21 @@ axesValues = (
 63,
 96
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.44329;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.099;
@@ -39262,6 +39592,21 @@ value = Firjar;
 axesValues = (
 81,
 96
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.36871;
@@ -39289,6 +39634,21 @@ axesValues = (
 104,
 96
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.27343;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.222;
@@ -39314,6 +39674,21 @@ weightClass = 700;
 axesValues = (
 133,
 96
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.15329;
@@ -39341,6 +39716,21 @@ axesValues = (
 170,
 96
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.42;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.58;
@@ -39363,6 +39753,21 @@ weightClass = 900;
 axesValues = (
 30,
 110
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.3;
@@ -39387,6 +39792,21 @@ widthClass = 6;
 axesValues = (
 38,
 110
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.28286;
@@ -39415,6 +39835,21 @@ axesValues = (
 49,
 110
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.25929;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.095;
@@ -39442,6 +39877,21 @@ axesValues = (
 63,
 110
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.22929;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.165;
@@ -39466,6 +39916,21 @@ widthClass = 6;
 axesValues = (
 81,
 110
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.19071;
@@ -39494,6 +39959,21 @@ axesValues = (
 104,
 110
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.14143;
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.37;
@@ -39520,6 +40000,21 @@ widthClass = 6;
 axesValues = (
 133,
 110
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
 );
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.07929;
@@ -39548,6 +40043,21 @@ axesValues = (
 170,
 110
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 112.5;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.7;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.3;
@@ -39572,6 +40082,21 @@ axesValues = (
 30,
 125
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 1;
 };
@@ -39594,6 +40119,21 @@ widthClass = 7;
 axesValues = (
 38,
 125
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
 );
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.05714;
@@ -39620,6 +40160,21 @@ axesValues = (
 49,
 125
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.13571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.86429;
@@ -39645,6 +40200,21 @@ axesValues = (
 63,
 125
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.23571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.76429;
@@ -39667,6 +40237,21 @@ widthClass = 7;
 axesValues = (
 81,
 125
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
 );
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.36429;
@@ -39693,6 +40278,21 @@ axesValues = (
 104,
 125
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.52857;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.47143;
@@ -39718,6 +40318,21 @@ axesValues = (
 133,
 125
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
+);
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.73571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.26429;
@@ -39742,6 +40357,21 @@ widthClass = 7;
 axesValues = (
 170,
 125
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 125;
+}
+);
+}
 );
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 1;
