@@ -42268,11 +42268,11 @@ instanceInterpolations = {
 name = Thin;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Thin;
+value = Firjar;
 }
 );
 }
@@ -42312,11 +42312,11 @@ instanceInterpolations = {
 name = ExtraLight;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = ExtraLight;
+value = Firjar;
 }
 );
 }
@@ -42357,11 +42357,11 @@ instanceInterpolations = {
 name = Light;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Light;
+value = Firjar;
 }
 );
 }
@@ -42414,11 +42414,11 @@ instanceInterpolations = {
 name = Regular;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Regular;
+value = Firjar;
 }
 );
 }
@@ -42457,11 +42457,11 @@ instanceInterpolations = {
 name = SimiBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = SimiBold;
+value = Firjar;
 }
 );
 }
@@ -42503,11 +42503,11 @@ isBold = 1;
 name = Bold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Bold;
+value = Firjar;
 }
 );
 }
@@ -42547,11 +42547,11 @@ instanceInterpolations = {
 name = ExtraBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = ExtraBold;
+value = Firjar;
 }
 );
 }
@@ -42590,11 +42590,11 @@ instanceInterpolations = {
 name = Black;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Black;
+value = Firjar;
 }
 );
 }
@@ -42624,14 +42624,14 @@ Location = 100;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 1;
 };
-name = "Condensed Thin";
+name = Thin;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed Thin";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42663,14 +42663,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.94286;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.05714;
 };
-name = "Condensed ExtraLight";
+name = ExtraLight;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed ExtraLight";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42703,14 +42703,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.86429;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.13571;
 };
-name = "Condensed Light";
+name = Light;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed Light";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42747,14 +42747,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.76429;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.23571;
 };
-name = Condensed;
+name = Regular;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Condensed;
+value = "Firjar Condensed";
 }
 );
 }
@@ -42785,14 +42785,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.63571;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.36429;
 };
-name = "Condensed SimiBold";
+name = SimiBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed SimiBold";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42826,15 +42826,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.52857;
 };
 isBold = 1;
-linkStyle = Condensed;
-name = "Condensed Bold";
+name = Bold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed Bold";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42866,14 +42865,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.26429;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.73571;
 };
-name = "Condensed ExtraBold";
+name = ExtraBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed ExtraBold";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42905,14 +42904,14 @@ Location = 900;
 instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 1;
 };
-name = "Condensed Black";
+name = Black;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Condensed Black";
+value = "Firjar Condensed";
 }
 );
 }
@@ -42944,14 +42943,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.8;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.2;
 };
-name = "SemiCondensed Thin";
+name = Thin;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed Thin";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -42985,14 +42984,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.04571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.18857;
 };
-name = "SemiCondensed ExtraLight";
+name = ExtraLight;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed ExtraLight";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43027,14 +43026,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.10857;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.17286;
 };
-name = "SemiCondensed Light";
+name = Light;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed Light";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43073,14 +43072,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.18857;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.15286;
 };
-name = SemiCondensed;
+name = Regular;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = SemiCondensed;
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43113,14 +43112,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.29143;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.12714;
 };
-name = "SemiCondensed SimiBold";
+name = SimiBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed SimiBold";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43156,15 +43155,14 @@ instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.09429;
 };
 isBold = 1;
-linkStyle = SemiCondensed;
-name = "SemiCondensed Bold";
+name = Bold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed Bold";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43198,14 +43196,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.58857;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.05286;
 };
-name = "SemiCondensed ExtraBold";
+name = ExtraBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed ExtraBold";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43238,14 +43236,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.2;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.8;
 };
-name = "SemiCondensed Black";
+name = Black;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiCondensed Black";
+value = "Firjar SemiCondensed";
 }
 );
 }
@@ -43277,14 +43275,14 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.3;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.7;
 };
-name = "SemiExpanded Thin";
+name = Thin;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded Thin";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43318,14 +43316,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.01714;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.66;
 };
-name = "SemiExpanded ExtraLight";
+name = ExtraLight;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded ExtraLight";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43360,14 +43358,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.04071;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.605;
 };
-name = "SemiExpanded Light";
+name = Light;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded Light";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43406,14 +43404,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.07071;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.535;
 };
-name = SemiExpanded;
+name = Regular;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = SemiExpanded;
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43446,14 +43444,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.10929;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.445;
 };
-name = "SemiExpanded SimiBold";
+name = SimiBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded SimiBold";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43489,15 +43487,14 @@ instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.33;
 };
 isBold = 1;
-linkStyle = SemiExpanded;
-name = "SemiExpanded Bold";
+name = Bold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded Bold";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43531,14 +43528,14 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.22071;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.185;
 };
-name = "SemiExpanded ExtraBold";
+name = ExtraBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded ExtraBold";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43571,14 +43568,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.7;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.3;
 };
-name = "SemiExpanded Black";
+name = Black;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "SemiExpanded Black";
+value = "Firjar SemiExpanded";
 }
 );
 }
@@ -43609,14 +43606,14 @@ Location = 100;
 instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 1;
 };
-name = "Expanded Thin";
+name = Thin;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded Thin";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43648,14 +43645,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.05714;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.94286;
 };
-name = "Expanded ExtraLight";
+name = ExtraLight;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded ExtraLight";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43688,14 +43685,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.13571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.86429;
 };
-name = "Expanded Light";
+name = Light;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded Light";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43732,14 +43729,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.23571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.76429;
 };
-name = Expanded;
+name = Regular;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = Expanded;
+value = "Firjar Expanded";
 }
 );
 }
@@ -43770,14 +43767,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.36429;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.63571;
 };
-name = "Expanded SimiBold";
+name = SimiBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded SimiBold";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43811,15 +43808,14 @@ instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.47143;
 };
 isBold = 1;
-linkStyle = Expanded;
-name = "Expanded Bold";
+name = Bold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded Bold";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43851,14 +43847,14 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.73571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.26429;
 };
-name = "Expanded ExtraBold";
+name = ExtraBold;
 properties = (
 {
-key = preferredSubfamilyNames;
+key = familyNames;
 values = (
 {
 language = dflt;
-value = "Expanded ExtraBold";
+value = "Firjar Expanded";
 }
 );
 }
@@ -43890,79 +43886,20 @@ Location = 900;
 instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 1;
 };
-name = "Expanded Black";
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = "Expanded Black";
-}
-);
-}
-);
-weightClass = 900;
-widthClass = 7;
-},
-{
-name = Regular;
+name = Black;
 properties = (
 {
 key = familyNames;
 values = (
 {
 language = dflt;
-value = "Firjar Variable";
+value = "Firjar Expanded";
 }
 );
-},
-{
-key = postscriptFontName;
-value = "FirjarVF-Regular";
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = dflt;
-value = "Firjar Variable Regular";
 }
 );
-},
-{
-key = preferredFamilyNames;
-values = (
-{
-language = dflt;
-value = "Firjar Variable";
-}
-);
-},
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Firjar Variable";
-}
-);
-},
-{
-key = variationsPostScriptNamePrefix;
-value = FirjarVF;
-}
-);
-type = variable;
+weightClass = 900;
+widthClass = 7;
 }
 );
 metrics = (
