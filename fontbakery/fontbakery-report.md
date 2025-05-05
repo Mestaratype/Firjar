@@ -57,6 +57,56 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- uni0615
+
+- uni064B
+
+- uni064C
+
+- uni064D
+
+- uni064E
+
+- uni064F
+
+- uni0650
+
+- uni0651
+
+- uni0652
+
+- uni0653
+
+- uni0654
+
+- uni0655
+
+- uni0656
+
+- uni0658
+
+- uni0670
+
+- uni06DB
+</code></pre>
+ [code: unattached-dotted-circle-marks]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
@@ -873,11 +923,11 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: syriac, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, garay, nko, hanifi-rohingya, yezidi, thaana, syriac</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: syriac, adlam, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, garay, nko, hanifi-rohingya, yezidi, thaana, syriac</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, garay, nko, hanifi-rohingya, yezidi, adlam, thaana, syriac</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
@@ -904,7 +954,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, mandaic, adlam, old-uyghur, arabic, sogdian, manichaean, psalter-pahlavi, hanifi-rohingya</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: manichaean, arabic, psalter-pahlavi, hanifi-rohingya, old-uyghur, sogdian, adlam, mandaic, syriac</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -928,19 +978,19 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi, hanifi-rohingya</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, thaana, arabic, nko</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, yezidi, hanifi-rohingya, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, nko, syriac, arabic</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -975,7 +1025,7 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, yezidi, arabic</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
 <li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
@@ -988,8 +1038,10 @@ definitions.</p>
 <li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
-<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
+<li>U+0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE: try adding arabic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanunoo, newa, buhid, caucasian-albanian, hanifi-rohingya, javanese, mandaic, new-tai-lue, cham, kayah-li, grantha, sogdian, brahmi, mahajani, soyombo, tagbanwa, tamil, syriac, bassa-vah, lepcha, masaram-gondi, zanabazar-square, oriya, batak, meetei-mayek, devanagari, wancho, balinese, thai, manichaean, marchen, gurmukhi, telugu, kannada, tai-le, sundanese, gunjala-gondi, miao, yi, music, gujarati, takri, osage, old-permic, nko, buginese, elbasan, duployan, malayalam, limbu, symbols, phags-pa, tifinagh, hebrew, chakma, myanmar, khojki, math, tagalog, canadian-aboriginal, saurashtra, warang-citi, psalter-pahlavi, modi, mongolian, tai-tham, pahawh-hmong, dogra, tibetan, kharoshthi, bengali, mende-kikakui, syloti-nagri, khmer, siddham, coptic, lao, tirhuta, adlam, bhaiksuki, khudawadi, ahom, sinhala, armenian, thaana, tai-viet, rejang, kaithi, sharada</li>
+<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
+<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code></p>
  [code: unreachable-subsetting]
@@ -1023,19 +1075,19 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
+<td align="left">Shaper didn't attach uni064E to uni25CC when shaping the text '◌َ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
+<td align="left">Shaper didn't attach uni0650 to uni25CC when shaping the text '◌ِ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
+<td align="left">Shaper didn't attach uni064F to uni25CC when shaping the text '◌ُ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
+<td align="left">Shaper didn't attach uni0652 to uni25CC when shaping the text '◌ْ'</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -1043,7 +1095,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
+<td align="left">Shaper didn't attach uni0670 to uni25CC when shaping the text '◌ٰ'</td>
 <td align="left">fa_Arab (Persian)</td>
 </tr>
 <tr>
@@ -1063,39 +1115,39 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064B to .notdef when shaping the text '◌ً'</td>
+<td align="left">Shaper didn't attach uni064B to uni25CC when shaping the text '◌ً'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064C to .notdef when shaping the text '◌ٌ'</td>
+<td align="left">Shaper didn't attach uni064C to uni25CC when shaping the text '◌ٌ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064D to .notdef when shaping the text '◌ٍ'</td>
+<td align="left">Shaper didn't attach uni064D to uni25CC when shaping the text '◌ٍ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
+<td align="left">Shaper didn't attach uni064E to uni25CC when shaping the text '◌َ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
+<td align="left">Shaper didn't attach uni064F to uni25CC when shaping the text '◌ُ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
+<td align="left">Shaper didn't attach uni0650 to uni25CC when shaping the text '◌ِ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0651 to .notdef when shaping the text '◌ّ'</td>
+<td align="left">Shaper didn't attach uni0651 to uni25CC when shaping the text '◌ّ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
+<td align="left">Shaper didn't attach uni0652 to uni25CC when shaping the text '◌ْ'</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0654 to .notdef when shaping the text '◌ٔ'</td>
+<td align="left">Shaper didn't attach uni0654 to uni25CC when shaping the text '◌ٔ'</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -1107,30 +1159,12 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
+<td align="left">Shaper didn't attach uni0670 to uni25CC when shaping the text '◌ٰ'</td>
 <td align="left">ur_Arab (Urdu)</td>
 </tr>
 </tbody>
 </table>
  [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>No dotted circle glyph present</p>
- [code: missing-dotted-circle]
 
 
 
@@ -1252,8 +1286,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 12 | 91 | 7 | 123 | 0 | 
-| 0% | 0% | 1% | 5% | 39% | 3% | 52% | 0% | 
+| 0 | 0 | 4 | 11 | 91 | 7 | 123 | 0 | 
+| 0% | 0% | 2% | 5% | 39% | 3% | 52% | 0% | 
 
 
 
