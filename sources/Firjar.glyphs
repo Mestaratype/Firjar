@@ -42604,44 +42604,6 @@ weightClass = 900;
 {
 axesValues = (
 75,
-30
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 75;
-},
-{
-Axis = Weight;
-Location = 100;
-}
-);
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 1;
-};
-name = Thin;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Firjar Condensed";
-}
-);
-}
-);
-weightClass = 100;
-widthClass = 3;
-},
-{
-axesValues = (
-75,
 38
 );
 customParameters = (
