@@ -18,7 +18,7 @@ Firjar is also a variable font built with:
 | Axis | Tag | Range | Default | Static Instances |
 | --- | --- | --- | --- | --- |
 | Weight | wght | 100 to 900 | 400 | Thin, ExtraLight, Light, Regular, Medium, Semibold, Bold, Black |
-| Width | wdth | 75 to 120 | 100 | Condensed, Regular, Expanded |
+| Width | wdth | 75 to 125 | 100 | Condensed, SemiCondensed, Regular, SemiExpanded, Expanded |
 
 #### `wght` (Weight) Axis
 The `wght` axis spans Thin (100) to Black (900).
@@ -36,9 +36,9 @@ The `wght` axis spans Thin (100) to Black (900).
 
 ## Roadmap
 
-- [ ] Design and polish Latin base glyphs.
+- [ ] Design and polish Latin Extended glyphs.
 - [ ] Expand Latin character set to cover [GF Arabic Core glyphsets](https://github.com/googlefonts/glyphsets/blob/main/Lib/glyphsets/results/nam/GF_Arabic_Core.nam).
-- [ ] Expanding the width axis range to Exrta condenced and Ultra Expanded.
+- [x] Expanding the width axis range to Exrta condenced and Ultra Expanded.
 
 ---
 

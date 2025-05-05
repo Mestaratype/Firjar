@@ -83,8 +83,6 @@ stat:
   - name: Weight
     tag: wght
     values:
-    - name: Thin
-      value: 100
     - name: ExtraLight
       value: 200
     - name: Light
