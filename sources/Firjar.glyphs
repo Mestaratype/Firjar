@@ -18403,7 +18403,7 @@ shapes = (
 ref = "fehDotless-ar.fina";
 },
 {
-pos = (863,-32);
+pos = (851,-32);
 ref = "dotabove-ar";
 }
 );
@@ -18416,7 +18416,7 @@ shapes = (
 ref = "fehDotless-ar.fina";
 },
 {
-pos = (388,55);
+pos = (366,55);
 ref = "dotabove-ar";
 }
 );
@@ -28074,6 +28074,7 @@ shapes = (
 ref = "yehbarree-ar";
 },
 {
+pos = (184,-157);
 ref = "hamzaabove-ar";
 }
 );
@@ -28132,6 +28133,7 @@ shapes = (
 ref = "yehbarree-ar.fina";
 },
 {
+pos = (184,-157);
 ref = "hamzaabove-ar";
 }
 );
@@ -42259,7 +42261,6 @@ name = "Style Name as STAT entry";
 value = wght;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
@@ -42620,7 +42621,6 @@ Location = 100;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 1;
 };
@@ -42940,7 +42940,6 @@ Location = 100;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.8;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.2;
@@ -43274,7 +43273,6 @@ Location = 100;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.3;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.7;
@@ -43608,7 +43606,6 @@ Location = 100;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 1;
 };
@@ -43913,6 +43910,46 @@ name = Regular;
 properties = (
 {
 key = familyNames;
+values = (
+{
+language = dflt;
+value = "Firjar Variable";
+}
+);
+},
+{
+key = postscriptFontName;
+value = "FirjarVF-Regular";
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = "Firjar Variable Regular";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "Firjar Variable";
+}
+);
+},
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
