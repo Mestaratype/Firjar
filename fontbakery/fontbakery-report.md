@@ -57,193 +57,6 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_TransLatin_Pinyin glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">FAIL messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Positional forms for Arabic letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'گ‍' with features: -init and shaping the text 'گ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍گ‍' with features: -medi and shaping the text '‍گ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍گ' with features: -fina and shaping the text '‍گ', the output is expected to be different, but was the same</td>
-<td align="left">fa_Arab (Persian)</td>
-</tr>
-<tr>
-<td align="left">Positional forms for Arabic letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'گ‍' with features: -init and shaping the text 'گ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ہ‍' with features: -init and shaping the text 'ہ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ھ‍' with features: -init and shaping the text 'ھ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍گ‍' with features: -medi and shaping the text '‍گ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍ہ‍' with features: -medi and shaping the text '‍ہ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍ھ‍' with features: -medi and shaping the text '‍ھ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍گ' with features: -fina and shaping the text '‍گ', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍ھ' with features: -fina and shaping the text '‍ھ', the output is expected to be different, but was the same</td>
-<td align="left">ur_Arab (Urdu)</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_TransLatin_Pinyin glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0656 to the base glyph when shaping the text '◌ٖ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
-<td align="left">fa_Arab (Persian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ؀؁؂؃‌‍‏</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ٗ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ټ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064B to .notdef when shaping the text '◌ً'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064C to .notdef when shaping the text '◌ٌ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064D to .notdef when shaping the text '◌ٍ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0651 to .notdef when shaping the text '◌ّ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0654 to .notdef when shaping the text '◌ٔ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0656 to the base glyph when shaping the text '◌ٖ'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0658 to the base glyph when shaping the text '◌٘'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
-<td align="left">ur_Arab (Urdu)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
@@ -892,13 +705,13 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=500,wdth=75, [0, 2, 1, 3] in wght=614,wdth=75.
+<pre><code>- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=75,wght=500, [0, 2, 1, 3] in wdth=75,wght=614.
 
-- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=900,wdth=75, [0, 2, 1, 3] in wght=442,wdth=120.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=75,wght=900, [0, 2, 1, 3] in wdth=120,wght=442.
 
-- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wght=442,wdth=120, [0, 2, 1, 3] in wght=614,wdth=125.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=120,wght=442, [0, 2, 1, 3] in wdth=125,wght=614.
 
-- Contour order differs in glyph 'W': [0, 1] in wght=100,wdth=75, [1, 0] in wght=100,wdth=125.
+- Contour order differs in glyph 'W': [0, 1] in wdth=75,wght=100, [1, 0] in wdth=125,wght=100.
 </code></pre>
  [code: interpolation-issues]
 
@@ -1014,22 +827,6 @@ fontbakery version: 0.13.2
 
 - twodotshorizontalbelowar
 
-- uni06AF.fina
-
-- uni06AF.init
-
-- uni06AF.medi
-
-- uni06BE.fina
-
-- uni06BE.init
-
-- uni06BE.medi
-
-- uni06C1.init
-
-- uni06C1.medi
-
 - uni06F4.urdu
 
 - uni06F7.urdu
@@ -1076,11 +873,11 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: garay, hanifi-rohingya, syriac, yezidi, arabic, nko, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: syriac, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: garay, hanifi-rohingya, syriac, yezidi, arabic, nko, thaana</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, hanifi-rohingya, adlam, syriac, yezidi, arabic, nko, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: syriac, adlam, thaana, arabic, yezidi, garay, nko, hanifi-rohingya</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
@@ -1107,7 +904,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: mandaic, old-uyghur, hanifi-rohingya, adlam, syriac, manichaean, arabic, psalter-pahlavi, sogdian</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, mandaic, adlam, old-uyghur, arabic, sogdian, manichaean, psalter-pahlavi, hanifi-rohingya</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1131,17 +928,17 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, nko, arabic, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, syriac, thaana, arabic, yezidi</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, thaana, arabic, nko</li>
 <li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
 <li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
@@ -1178,7 +975,7 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
 <li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
@@ -1191,11 +988,131 @@ definitions.</p>
 <li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
-<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
+<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
+<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_TransLatin_Pinyin glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0656 to the base glyph when shaping the text '◌ٖ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
+<td align="left">fa_Arab (Persian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ؀؁؂؃‌‍‏</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ٗ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ټ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064B to .notdef when shaping the text '◌ً'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064C to .notdef when shaping the text '◌ٌ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064D to .notdef when shaping the text '◌ٍ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064E to .notdef when shaping the text '◌َ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni064F to .notdef when shaping the text '◌ُ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0650 to .notdef when shaping the text '◌ِ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0651 to .notdef when shaping the text '◌ّ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0652 to .notdef when shaping the text '◌ْ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0654 to .notdef when shaping the text '◌ٔ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0656 to the base glyph when shaping the text '◌ٖ'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0658 to the base glyph when shaping the text '◌٘'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0670 to .notdef when shaping the text '◌ٰ'</td>
+<td align="left">ur_Arab (Urdu)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
 
 
 
@@ -1335,8 +1252,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 11 | 91 | 7 | 123 | 0 | 
-| 0% | 0% | 2% | 5% | 39% | 3% | 52% | 0% | 
+| 0 | 0 | 3 | 12 | 91 | 7 | 123 | 0 | 
+| 0% | 0% | 1% | 5% | 39% | 3% | 52% | 0% | 
 
 
 
