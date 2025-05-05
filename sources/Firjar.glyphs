@@ -43909,7 +43909,22 @@ weightClass = 900;
 widthClass = 7;
 },
 {
-name = Variable;
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Firjar Variable";
+}
+);
+},
+{
+key = variationsPostScriptNamePrefix;
+value = FirjarVF;
+}
+);
 type = variable;
 }
 );
