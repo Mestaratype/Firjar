@@ -8,15 +8,19 @@ DisplayStrings = (
 );
 axes = (
 {
-name = Weight;
-tag = wght;
-},
-{
 name = Width;
 tag = wdth;
+},
+{
+name = Weight;
+tag = wght;
 }
 );
 customParameters = (
+{
+name = "Export Mac Name Table Entries";
+value = 0;
+},
 {
 name = "Enforce Compatibility Check";
 value = 1;
@@ -34,12 +38,12 @@ value = (
 name = "Virtual Master";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -143,10 +147,13 @@ sub fehDotless-ar by fehDotless-ar.init;
 sub qaf-ar by qaf-ar.init;
 sub kaf-ar by kaf-ar.init;
 sub keheh-ar by keheh-ar.init;
+sub gaf-ar by gaf-ar.init;
 sub lam-ar by lam-ar.init;
 sub meem-ar by meem-ar.init;
 sub noon-ar by noon-ar.init;
 sub heh-ar by heh-ar.init;
+sub hehgoal-ar by hehgoal-ar.init;
+sub hehDoachashmee-ar by hehDoachashmee-ar.init;
 sub yeh-ar by yeh-ar.init;
 sub yehHamzaabove-ar by yehHamzaabove-ar.init;
 sub yehFarsi-ar by yehFarsi-ar.init;
@@ -180,10 +187,13 @@ sub fehDotless-ar by fehDotless-ar.medi;
 sub qaf-ar by qaf-ar.medi;
 sub kaf-ar by kaf-ar.medi;
 sub keheh-ar by keheh-ar.medi;
+sub gaf-ar by gaf-ar.medi;
 sub lam-ar by lam-ar.medi;
 sub meem-ar by meem-ar.medi;
 sub noon-ar by noon-ar.medi;
 sub heh-ar by heh-ar.medi;
+sub hehgoal-ar by hehgoal-ar.medi;
+sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub yeh-ar by yeh-ar.medi;
 sub yehHamzaabove-ar by yehHamzaabove-ar.medi;
 sub yehFarsi-ar by yehFarsi-ar.medi;
@@ -230,6 +240,7 @@ sub qafDotless-ar by qafDotless-ar.fina;
 sub qaf-ar by qaf-ar.fina;
 sub kaf-ar by kaf-ar.fina;
 sub keheh-ar by keheh-ar.fina;
+sub gaf-ar by gaf-ar.fina;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
 sub noon-ar by noon-ar.fina;
@@ -237,6 +248,7 @@ sub noonghunna-ar by noonghunna-ar.fina;
 sub heh-ar by heh-ar.fina;
 sub hehgoal-ar by hehgoal-ar.fina;
 sub hehgoalHamzaabove-ar by hehgoalHamzaabove-ar.fina;
+sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
 sub tehMarbuta-ar by tehMarbuta-ar.fina;
 sub tehMarbutagoal-ar by tehMarbutagoal-ar.fina;
 sub waw-ar by waw-ar.fina;
@@ -281,8 +293,8 @@ tag = rlig;
 fontMaster = (
 {
 axesValues = (
-30,
-75
+75,
+30
 );
 customParameters = (
 {
@@ -325,12 +337,12 @@ value = 400;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -399,8 +411,8 @@ GSCornerRadius = 80;
 },
 {
 axesValues = (
-30,
-125
+125,
+30
 );
 customParameters = (
 {
@@ -443,12 +455,12 @@ value = 400;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -517,8 +529,8 @@ GSCornerRadius = 110;
 },
 {
 axesValues = (
-170,
-75
+75,
+170
 );
 customParameters = (
 {
@@ -561,12 +573,12 @@ value = 400;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
@@ -635,8 +647,8 @@ GSCornerRadius = 60;
 },
 {
 axesValues = (
-170,
-125
+125,
+170
 );
 customParameters = (
 {
@@ -679,12 +691,12 @@ value = 400;
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
@@ -5373,8 +5385,8 @@ width = 710;
 associatedMasterId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
 attr = {
 coordinates = (
-90,
-120
+120,
+90
 );
 };
 layerId = "AE0C8137-AB16-48F7-81F2-8CEED585FDDF";
@@ -5534,8 +5546,8 @@ width = 326;
 associatedMasterId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
 attr = {
 coordinates = (
-100,
-75
+75,
+100
 );
 };
 layerId = "DC6AAD84-9A42-492E-BF3D-F0EF268BF3C9";
@@ -12821,8 +12833,8 @@ pos = (498,440);
 associatedMasterId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
 attr = {
 coordinates = (
-120,
-125
+125,
+120
 );
 };
 layerId = "1E589440-3E1A-409F-986D-17DF6BCD6F83";
@@ -13036,8 +13048,8 @@ pos = (268,440);
 associatedMasterId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
 attr = {
 coordinates = (
-120,
-75
+75,
+120
 );
 };
 layerId = "F798DDC9-6B77-49B6-9FD5-63F6A1172EE4";
@@ -40369,20 +40381,20 @@ type = variable;
 },
 {
 axesValues = (
-30,
-75
+75,
+30
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -40396,20 +40408,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-38,
-75
+75,
+38
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 200;
 }
 );
 }
@@ -40425,20 +40437,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-49,
-75
+75,
+49
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 300;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 300;
 }
 );
 }
@@ -40454,20 +40466,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-63,
-75
+75,
+63
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -40485,20 +40497,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-81,
-75
+75,
+81
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 600;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 600;
 }
 );
 }
@@ -40514,20 +40526,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-104,
-75
+75,
+104
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 700;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 700;
 }
 );
 }
@@ -40544,20 +40556,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-133,
-75
+75,
+133
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 800;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 800;
 }
 );
 }
@@ -40573,20 +40585,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-170,
-75
+75,
+170
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 75;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
@@ -40600,20 +40612,20 @@ widthClass = 3;
 },
 {
 axesValues = (
-30,
-85
+85,
+30
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -40628,20 +40640,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-38,
-85
+85,
+38
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 200;
 }
 );
 }
@@ -40659,20 +40671,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-49,
-85
+85,
+49
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 300;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 300;
 }
 );
 }
@@ -40690,20 +40702,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-63,
-85
+85,
+63
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -40723,20 +40735,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-81,
-85
+85,
+81
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 600;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 600;
 }
 );
 }
@@ -40754,20 +40766,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-104,
-85
+85,
+104
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 700;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 700;
 }
 );
 }
@@ -40786,20 +40798,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-133,
-85
+85,
+133
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 800;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 800;
 }
 );
 }
@@ -40817,20 +40829,20 @@ widthClass = 4;
 },
 {
 axesValues = (
-170,
-85
+85,
+170
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
@@ -40845,19 +40857,19 @@ widthClass = 4;
 },
 {
 axesValues = (
-30,
-96
+96,
+30
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
+Axis = Width;
 Location = 100;
 },
 {
-Axis = Width;
+Axis = Weight;
 Location = 100;
 }
 );
@@ -40876,20 +40888,20 @@ weightClass = 100;
 },
 {
 axesValues = (
-38,
-96
+96,
+38
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 200;
 }
 );
 },
@@ -40910,20 +40922,20 @@ weightClass = 200;
 },
 {
 axesValues = (
-49,
-96
+96,
+49
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 300;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 300;
 }
 );
 },
@@ -40944,20 +40956,20 @@ weightClass = 300;
 },
 {
 axesValues = (
-63,
-96
+96,
+63
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -40988,20 +41000,20 @@ name = Regular;
 },
 {
 axesValues = (
-81,
-96
+96,
+81
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 600;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 600;
 }
 );
 },
@@ -41022,20 +41034,20 @@ weightClass = 600;
 },
 {
 axesValues = (
-104,
-96
+96,
+104
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 700;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 700;
 }
 );
 },
@@ -41056,20 +41068,20 @@ weightClass = 700;
 },
 {
 axesValues = (
-133,
-96
+96,
+133
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 800;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 800;
 }
 );
 },
@@ -41090,20 +41102,20 @@ weightClass = 800;
 },
 {
 axesValues = (
-170,
-96
+96,
+170
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 100;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 },
@@ -41121,20 +41133,20 @@ weightClass = 900;
 },
 {
 axesValues = (
-30,
-110
+110,
+30
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -41149,20 +41161,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-38,
-110
+110,
+38
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 200;
 }
 );
 }
@@ -41180,20 +41192,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-49,
-110
+110,
+49
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 300;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 300;
 }
 );
 }
@@ -41211,20 +41223,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-63,
-110
+110,
+63
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -41244,20 +41256,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-81,
-110
+110,
+81
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 600;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 600;
 }
 );
 }
@@ -41275,20 +41287,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-104,
-110
+110,
+104
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 700;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 700;
 }
 );
 }
@@ -41307,20 +41319,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-133,
-110
+110,
+133
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 800;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 800;
 }
 );
 }
@@ -41338,20 +41350,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-170,
-110
+110,
+170
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
@@ -41366,20 +41378,20 @@ widthClass = 6;
 },
 {
 axesValues = (
-30,
-125
+125,
+30
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 100;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 100;
 }
 );
 }
@@ -41404,20 +41416,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-38,
-125
+125,
+38
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 200;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 200;
 }
 );
 }
@@ -41444,20 +41456,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-49,
-125
+125,
+49
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 300;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 300;
 }
 );
 }
@@ -41484,20 +41496,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-63,
-125
+125,
+63
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 400;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 400;
 }
 );
 },
@@ -41526,20 +41538,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-81,
-125
+125,
+81
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 600;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 600;
 }
 );
 }
@@ -41566,20 +41578,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-104,
-125
+125,
+104
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 700;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 700;
 }
 );
 }
@@ -41607,20 +41619,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-133,
-125
+125,
+133
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 800;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 800;
 }
 );
 }
@@ -41647,20 +41659,20 @@ widthClass = 7;
 },
 {
 axesValues = (
-170,
-125
+125,
+170
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Weight;
-Location = 900;
-},
-{
 Axis = Width;
 Location = 125;
+},
+{
+Axis = Weight;
+Location = 900;
 }
 );
 }
