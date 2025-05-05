@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[17] Firjar[wdth,wght].ttf</summary>
+<details><summary>[14] Firjar[wdth,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
@@ -33,24 +33,6 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Does full font name begin with the font family name? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-name-match-familyname-fullfont">opentype/name/match_familyname_fullfont</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>On the 'name' table, the full font name 'Firjar Variable Regular' does not begin with the font family name 'Firjar Condensed Thin' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1.</p>
- [code: mismatch-font-names]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
     <div>
 
@@ -60,91 +42,14 @@ fontbakery version: 0.13.2
 
 
 
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its subfamily name should be 'Regular'.</p>
-<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Thin', rather than ''Regular''. If the default instance is 'Thin', NameID 17 is probably the problem.</p>
+* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its subfamily name should be 'Condensed Thin'.</p>
+<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Thin', rather than ''Condensed Thin''. If the default instance is 'Thin', NameID 17 is probably the problem.</p>
  [code: invalid-default-instance-subfamily-name]
 
 
 
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its postscript name should be 'FirjarVF-Regular', instead of 'FirjarVariable-Thin'.</p>
+* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its postscript name should be 'Firjar-CondensedThin', instead of 'Firjar-Thin'.</p>
  [code: invalid-default-instance-postscript-name]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-canonical-filename">googlefonts/canonical_filename</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Expected &quot;FirjarVariable[wdth,wght].ttf. Got Firjar[wdth,wght].ttf.</p>
- [code: bad-filename]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Font names are incorrect:</p>
-<table>
-<thead>
-<tr>
-<th align="left">nameID</th>
-<th align="left">current</th>
-<th align="left">expected</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Family Name</td>
-<td align="left"><strong>Firjar Condensed Thin</strong></td>
-<td align="left"><strong>Firjar Variable Condensed Thin</strong></td>
-</tr>
-<tr>
-<td align="left">Subfamily Name</td>
-<td align="left">Regular</td>
-<td align="left">Regular</td>
-</tr>
-<tr>
-<td align="left">Full Name</td>
-<td align="left"><strong>Firjar Variable Regular</strong></td>
-<td align="left"><strong>Firjar Variable Condensed Thin</strong></td>
-</tr>
-<tr>
-<td align="left">Postscript Name</td>
-<td align="left"><strong>FirjarVF-Regular</strong></td>
-<td align="left"><strong>FirjarVariable-CondensedThin</strong></td>
-</tr>
-<tr>
-<td align="left">Typographic Family Name</td>
-<td align="left">Firjar Variable</td>
-<td align="left">Firjar Variable</td>
-</tr>
-<tr>
-<td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Regular</strong></td>
-<td align="left"><strong>Condensed Thin</strong></td>
-</tr>
-</tbody>
-</table>
- [code: bad-names]
 
 
 
@@ -968,11 +873,11 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, arabic, garay, yezidi, thaana, nko, syriac</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, hanifi-rohingya, nko, syriac, yezidi, thaana, garay</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, arabic, garay, yezidi, thaana, nko, syriac</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: hanifi-rohingya, arabic, garay, yezidi, adlam, thaana, nko, syriac</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, hanifi-rohingya, nko, syriac, yezidi, thaana, garay</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, hanifi-rohingya, nko, syriac, yezidi, adlam, thaana, garay</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
@@ -999,7 +904,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: hanifi-rohingya, arabic, adlam, psalter-pahlavi, old-uyghur, mandaic, sogdian, manichaean, syriac</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, mandaic, sogdian, hanifi-rohingya, old-uyghur, syriac, manichaean, adlam, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1023,16 +928,16 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, arabic, yezidi, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, arabic, indic-siyaq-numbers, thaana, syriac</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers, hanifi-rohingya, syriac, yezidi, thaana</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers, syriac, yezidi, thaana</li>
 <li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
 <li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
 <li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
@@ -1070,7 +975,7 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
 <li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
@@ -1084,7 +989,7 @@ definitions.</p>
 <li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: miao, hanunoo, mongolian, bengali, music, mende-kikakui, wancho, old-permic, psalter-pahlavi, thaana, sogdian, tagbanwa, khojki, lao, tai-le, math, sharada, tai-tham, balinese, syriac, siddham, buhid, meetei-mayek, elbasan, khmer, adlam, tifinagh, bassa-vah, grantha, takri, myanmar, syloti-nagri, telugu, mahajani, manichaean, oriya, cham, pahawh-hmong, new-tai-lue, bhaiksuki, zanabazar-square, gujarati, gurmukhi, soyombo, symbols, kayah-li, modi, ahom, canadian-aboriginal, kannada, warang-citi, tai-viet, dogra, thai, masaram-gondi, buginese, osage, tibetan, kaithi, malayalam, javanese, devanagari, batak, gunjala-gondi, sundanese, tirhuta, lepcha, hanifi-rohingya, coptic, rejang, limbu, caucasian-albanian, khudawadi, phags-pa, tamil, tagalog, kharoshthi, saurashtra, chakma, duployan, yi, armenian, brahmi, marchen, nko, sinhala, mandaic, hebrew, newa</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, tamil, buginese, sundanese, grantha, tai-viet, brahmi, lepcha, music, limbu, hebrew, yi, sinhala, kharoshthi, math, phags-pa, syriac, takri, malayalam, saurashtra, modi, mongolian, dogra, canadian-aboriginal, mandaic, masaram-gondi, manichaean, mahajani, telugu, gunjala-gondi, javanese, hanifi-rohingya, tai-tham, bengali, cham, kannada, bhaiksuki, tagalog, chakma, khojki, meetei-mayek, psalter-pahlavi, new-tai-lue, elbasan, khmer, newa, caucasian-albanian, tifinagh, zanabazar-square, kayah-li, syloti-nagri, miao, oriya, soyombo, nko, buhid, sogdian, gujarati, marchen, khudawadi, siddham, devanagari, rejang, sharada, thaana, tibetan, ahom, thai, myanmar, symbols, balinese, tirhuta, warang-citi, adlam, lao, armenian, tagbanwa, tai-le, osage, pahawh-hmong, wancho, old-permic, kaithi, gurmukhi, bassa-vah, batak, coptic, duployan, hanunoo</li>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
 </ul>
@@ -1255,8 +1160,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 6 | 11 | 91 | 7 | 121 | 0 | 
-| 0% | 0% | 3% | 5% | 39% | 3% | 51% | 0% | 
+| 0 | 0 | 3 | 11 | 91 | 7 | 124 | 0 | 
+| 0% | 0% | 1% | 5% | 39% | 3% | 53% | 0% | 
 
 
 
