@@ -35,23 +35,6 @@ value = (
 );
 },
 {
-name = "Virtual Master";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 400;
-}
-);
-},
-{
-name = "Variable Font Origin";
-value = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
@@ -42253,16 +42236,6 @@ width = 1174;
 );
 instances = (
 {
-customParameters = (
-{
-name = "Update Features";
-value = 1;
-}
-);
-name = variable;
-type = variable;
-},
-{
 axesValues = (
 96,
 30
@@ -42286,6 +42259,7 @@ name = "Style Name as STAT entry";
 value = wght;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
@@ -42440,15 +42414,6 @@ name = Regular;
 properties = (
 {
 key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-},
-{
-key = styleMapStyleNames;
 values = (
 {
 language = dflt;
@@ -42655,6 +42620,7 @@ Location = 100;
 );
 }
 );
+exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 1;
 };
@@ -42974,6 +42940,7 @@ Location = 100;
 );
 }
 );
+exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.8;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.2;
@@ -43307,6 +43274,7 @@ Location = 100;
 );
 }
 );
+exports = 0;
 instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.3;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.7;
@@ -43640,6 +43608,7 @@ Location = 100;
 );
 }
 );
+exports = 0;
 instanceInterpolations = {
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 1;
 };
@@ -43938,6 +43907,10 @@ value = "Expanded Black";
 );
 weightClass = 900;
 widthClass = 7;
+},
+{
+name = Variable;
+type = variable;
 }
 );
 metrics = (
