@@ -42240,48 +42240,6 @@ instances = (
 {
 axesValues = (
 96,
-30
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 100;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
-};
-name = Thin;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = Firjar;
-}
-);
-}
-);
-weightClass = 100;
-},
-{
-axesValues = (
-96,
 38
 );
 customParameters = (
@@ -43216,45 +43174,6 @@ widthClass = 4;
 {
 axesValues = (
 110,
-30
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 100;
-}
-);
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.3;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.7;
-};
-name = Thin;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Firjar SemiExpanded";
-}
-);
-}
-);
-weightClass = 100;
-widthClass = 6;
-},
-{
-axesValues = (
-110,
 38
 );
 customParameters = (
@@ -43544,44 +43463,6 @@ value = "Firjar SemiExpanded";
 );
 weightClass = 900;
 widthClass = 6;
-},
-{
-axesValues = (
-125,
-30
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 125;
-},
-{
-Axis = Weight;
-Location = 100;
-}
-);
-}
-);
-instanceInterpolations = {
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 1;
-};
-name = Thin;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Firjar Expanded";
-}
-);
-}
-);
-weightClass = 100;
-widthClass = 7;
 },
 {
 axesValues = (
