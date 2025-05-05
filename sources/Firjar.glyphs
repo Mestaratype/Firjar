@@ -36455,9 +36455,19 @@ unicode = 37;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2025-05-05 15:32:09 +0000";
+lastChange = "2025-05-05 15:40:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (285,469);
+}
+);
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
 shapes = (
 {
@@ -36668,6 +36678,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (285,469);
+}
+);
 layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
 shapes = (
 {
@@ -36878,6 +36898,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (285,449);
+}
+);
 layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
 shapes = (
 {
@@ -37088,6 +37118,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (285,449);
+}
+);
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
 shapes = (
 {
@@ -42224,6 +42264,379 @@ type = variable;
 },
 {
 axesValues = (
+96,
+30
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 100;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
+};
+name = Thin;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Thin;
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+96,
+38
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 200;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.54686;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.024;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.03314;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.396;
+};
+name = ExtraLight;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = ExtraLight;
+}
+);
+}
+);
+visible = 0;
+weightClass = 200;
+},
+{
+axesValues = (
+96,
+49
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 300;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.50129;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.057;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.07871;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.363;
+};
+name = Light;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Light;
+}
+);
+}
+);
+visible = 0;
+weightClass = 300;
+},
+{
+axesValues = (
+96,
+63
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wdth;
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wdth;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.44329;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.099;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.13671;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.321;
+};
+name = Regular;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+},
+{
+key = styleMapStyleNames;
+values = (
+{
+language = dflt;
+value = Regular;
+}
+);
+}
+);
+},
+{
+axesValues = (
+96,
+81
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 600;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.36871;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.153;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.21129;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.267;
+};
+name = SimiBold;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = SimiBold;
+}
+);
+}
+);
+visible = 0;
+weightClass = 600;
+},
+{
+axesValues = (
+96,
+104
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 700;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.27343;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.222;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.30657;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.198;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Bold;
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+96,
+133
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 800;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.15329;
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.309;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.42671;
+"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.111;
+};
+name = ExtraBold;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = ExtraBold;
+}
+);
+}
+);
+visible = 0;
+weightClass = 800;
+},
+{
+axesValues = (
+96,
+170
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 900;
+}
+);
+},
+{
+name = "Style Name as STAT entry";
+value = wght;
+}
+);
+instanceInterpolations = {
+"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.42;
+"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.58;
+};
+name = Black;
+properties = (
+{
+key = preferredSubfamilyNames;
+values = (
+{
+language = dflt;
+value = Black;
+}
+);
+}
+);
+weightClass = 900;
+},
+{
+axesValues = (
 75,
 30
 );
@@ -42873,370 +43286,6 @@ value = "SemiCondensed Black";
 );
 weightClass = 900;
 widthClass = 4;
-},
-{
-axesValues = (
-96,
-30
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 100;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.58;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.42;
-};
-name = Thin;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Thin;
-}
-);
-}
-);
-weightClass = 100;
-},
-{
-axesValues = (
-96,
-38
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 200;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.54686;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.024;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.03314;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.396;
-};
-name = ExtraLight;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = ExtraLight;
-}
-);
-}
-);
-visible = 0;
-weightClass = 200;
-},
-{
-axesValues = (
-96,
-49
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 300;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.50129;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.057;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.07871;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.363;
-};
-name = Light;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Light;
-}
-);
-}
-);
-visible = 0;
-weightClass = 300;
-},
-{
-axesValues = (
-96,
-63
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 400;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wdth;
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-},
-{
-name = "Elidable STAT Axis Value Name";
-value = wdth;
-},
-{
-name = "Elidable STAT Axis Value Name";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.44329;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.099;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.13671;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.321;
-};
-name = Regular;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Regular;
-}
-);
-}
-);
-},
-{
-axesValues = (
-96,
-81
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 600;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.36871;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.153;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.21129;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.267;
-};
-name = SimiBold;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = SimiBold;
-}
-);
-}
-);
-visible = 0;
-weightClass = 600;
-},
-{
-axesValues = (
-96,
-104
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 700;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.27343;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.222;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.30657;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.198;
-};
-isBold = 1;
-name = Bold;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Bold;
-}
-);
-}
-);
-weightClass = 700;
-},
-{
-axesValues = (
-96,
-133
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 800;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.15329;
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.309;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.42671;
-"A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.111;
-};
-name = ExtraBold;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = ExtraBold;
-}
-);
-}
-);
-visible = 0;
-weightClass = 800;
-},
-{
-axesValues = (
-96,
-170
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 100;
-},
-{
-Axis = Weight;
-Location = 900;
-}
-);
-},
-{
-name = "Style Name as STAT entry";
-value = wght;
-}
-);
-instanceInterpolations = {
-"71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.42;
-"8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.58;
-};
-name = Black;
-properties = (
-{
-key = preferredSubfamilyNames;
-values = (
-{
-language = dflt;
-value = Black;
-}
-);
-}
-);
-weightClass = 900;
 },
 {
 axesValues = (
