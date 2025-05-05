@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[16] Firjar[wdth,wght].ttf</summary>
+<details><summary>[15] Firjar[wdth,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
@@ -26,25 +26,6 @@ fontbakery version: 0.13.2
 
 * 🔥 **FAIL** <p>Regular instance has wdth coordinate of 75.0, expected 100</p>
  [code: wdth-not-100]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check glyphs do not have duplicate components which have the same x,y coordinates. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-glyf-non-transformed-duplicate-components">opentype/glyf_non_transformed_duplicate_components</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs have duplicate components which have the same x,y coordinates:
-* {'glyph': 'guillemotright', 'component': 'guilsinglright', 'x': 0, 'y': 0}</p>
- [code: found-duplicates]
 
 
 
@@ -99,23 +80,23 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">When shaping the text 'ى‍' with features: -init and shaping the text 'ى‍', the output is expected to be different, but was the same</td>
+<td align="left">When shaping the text 'گ‍' with features: -init and shaping the text 'گ‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">When shaping the text '‍ى‍' with features: -medi and shaping the text '‍ى‍', the output is expected to be different, but was the same</td>
-<td align="left">ar_Arab (Arabic)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
+<td align="left">When shaping the text '‍گ‍' with features: -medi and shaping the text '‍گ‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: گ</td>
-<td align="left">fa_Arab (Persian) and ur_Arab (Urdu)</td>
+<td align="left">When shaping the text '‍گ' with features: -fina and shaping the text '‍گ', the output is expected to be different, but was the same</td>
+<td align="left">fa_Arab (Persian)</td>
 </tr>
 <tr>
 <td align="left">Positional forms for Arabic letters:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text 'گ‍' with features: -init and shaping the text 'گ‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -127,11 +108,19 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">When shaping the text '‍گ‍' with features: -medi and shaping the text '‍گ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">When shaping the text '‍ہ‍' with features: -medi and shaping the text '‍ہ‍', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
 <td align="left">When shaping the text '‍ھ‍' with features: -medi and shaping the text '‍ھ‍', the output is expected to be different, but was the same</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">When shaping the text '‍گ' with features: -fina and shaping the text '‍گ', the output is expected to be different, but was the same</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -153,34 +142,6 @@ fontbakery version: 0.13.2
 </tr>
 </thead>
 <tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ڜ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ڢ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ڥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ڧ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ڨ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: گ</td>
-<td align="left">ar_Arab (Arabic)</td>
-</tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
 <td align="left"></td>
@@ -222,19 +183,7 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following auxiliary characters are missing from the font: ٻ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ٺ</td>
-<td align="left"></td>
-</tr>
-<tr>
 <td align="left">The following auxiliary characters are missing from the font: ټ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ٽ</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -1017,23 +966,23 @@ fontbakery version: 0.13.2
 
 * uni063A.medi: L&lt;&lt;336.0,30.0&gt;--&lt;336.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni0649 (U+0649): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0649.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni064A (U+064A): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni064A.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0626 (U+0626): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0626.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni06CC (U+06CC): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni06CC.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni0664 (U+0664): L&lt;&lt;390.0,360.0&gt;--&lt;390.0,330.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;80.0,25.0&gt;--&lt;60.0,47.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;60.0,47.0&gt;--&lt;247.0,226.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;247.0,226.0&gt;--&lt;247.0,255.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;247.0,255.0&gt;--&lt;60.0,434.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;60.0,434.0&gt;--&lt;80.0,456.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;80.0,456.0&gt;--&lt;277.0,267.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;277.0,267.0&gt;--&lt;277.0,214.0&gt;&gt; has the same coordinates as a previous segment.
-
-* guillemotright (U+00BB): L&lt;&lt;277.0,214.0&gt;--&lt;80.0,25.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -1057,8 +1006,6 @@ fontbakery version: 0.13.2
 
 - dotcenterar
 
-- threedotsdownabovear
-
 - threedotsupabovear
 
 - threedotsupbelowar
@@ -1067,9 +1014,21 @@ fontbakery version: 0.13.2
 
 - twodotshorizontalbelowar
 
-- twodotsverticalabovear
+- uni06AF.fina
 
-- twodotsverticalbelowar
+- uni06AF.init
+
+- uni06AF.medi
+
+- uni06BE.fina
+
+- uni06BE.init
+
+- uni06BE.medi
+
+- uni06C1.init
+
+- uni06C1.medi
 
 - uni06F4.urdu
 
@@ -1117,18 +1076,18 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: syriac, thaana, yezidi, arabic, garay, nko, hanifi-rohingya</li>
+<li>U+060C ARABIC COMMA: try adding one of: garay, hanifi-rohingya, syriac, yezidi, arabic, nko, thaana</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, thaana, yezidi, arabic, garay, nko, hanifi-rohingya</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: syriac, thaana, yezidi, adlam, arabic, garay, nko, hanifi-rohingya</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: garay, hanifi-rohingya, syriac, yezidi, arabic, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, hanifi-rohingya, adlam, syriac, yezidi, arabic, nko, thaana</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -1148,7 +1107,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, adlam, arabic, sogdian, manichaean, mandaic, psalter-pahlavi, old-uyghur, hanifi-rohingya</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: mandaic, old-uyghur, hanifi-rohingya, adlam, syriac, manichaean, arabic, psalter-pahlavi, sogdian</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1172,34 +1131,43 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic, hanifi-rohingya</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, thaana, yezidi, indic-siyaq-numbers, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, arabic, nko, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, arabic, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, arabic, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, syriac, yezidi, arabic, thaana</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, nko, arabic, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
 <li>U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: syriac, arabic</li>
 <li>U+0671 ARABIC LETTER ALEF WASLA: try adding arabic</li>
 <li>U+0679 ARABIC LETTER TTEH: try adding arabic</li>
+<li>U+067A ARABIC LETTER TTEHEH: try adding arabic</li>
+<li>U+067B ARABIC LETTER BEEH: try adding arabic</li>
+<li>U+067D ARABIC LETTER TEH WITH THREE DOTS ABOVE DOWNWARDS: try adding arabic</li>
 <li>U+067E ARABIC LETTER PEH: try adding arabic</li>
 <li>U+0686 ARABIC LETTER TCHEH: try adding arabic</li>
 <li>U+0688 ARABIC LETTER DDAL: try adding arabic</li>
 <li>U+068E ARABIC LETTER DUL: try adding arabic</li>
 <li>U+0691 ARABIC LETTER RREH: try adding arabic</li>
 <li>U+0698 ARABIC LETTER JEH: try adding arabic</li>
+<li>U+069C ARABIC LETTER SEEN WITH THREE DOTS BELOW AND THREE DOTS ABOVE: try adding arabic</li>
 <li>U+06A1 ARABIC LETTER DOTLESS FEH: try adding arabic</li>
+<li>U+06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW: try adding arabic</li>
 <li>U+06A4 ARABIC LETTER VEH: try adding arabic</li>
+<li>U+06A5 ARABIC LETTER FEH WITH THREE DOTS BELOW: try adding arabic</li>
+<li>U+06A7 ARABIC LETTER QAF WITH DOT ABOVE: try adding arabic</li>
+<li>U+06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE: try adding arabic</li>
 <li>U+06A9 ARABIC LETTER KEHEH: try adding arabic</li>
+<li>U+06AF ARABIC LETTER GAF: try adding arabic</li>
 <li>U+06BA ARABIC LETTER NOON GHUNNA: try adding arabic</li>
 <li>U+06BE ARABIC LETTER HEH DOACHASHMEE: try adding arabic</li>
 <li>U+06C1 ARABIC LETTER HEH GOAL: try adding arabic</li>
@@ -1210,21 +1178,21 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
-<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
+<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code></p>
  [code: unreachable-subsetting]
@@ -1367,7 +1335,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 11 | 91 | 7 | 122 | 0 | 
+| 0 | 0 | 4 | 11 | 91 | 7 | 123 | 0 | 
 | 0% | 0% | 2% | 5% | 39% | 3% | 52% | 0% | 
 
 
