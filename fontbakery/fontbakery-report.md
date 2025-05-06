@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.2
+fontbakery version: 0.13.3
 
 
 
@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[14] Firjar[wdth,wght].ttf</summary>
+<details><summary>[13] Firjar[wdth,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
@@ -707,11 +707,9 @@ fontbakery version: 0.13.2
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
 <pre><code>- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=75,wght=500, [0, 2, 1, 3] in wdth=75,wght=614.
 
-- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=75,wght=900, [0, 2, 1, 3] in wdth=120,wght=442.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=75,wght=900, [0, 2, 1, 3] in wdth=125,wght=442.
 
-- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=120,wght=442, [0, 2, 1, 3] in wdth=125,wght=614.
-
-- Contour order differs in glyph 'W': [0, 1] in wdth=75,wght=100, [1, 0] in wdth=125,wght=100.
+- Contour order differs in glyph 'numbersign': [0, 1, 2, 3] in wdth=125,wght=442, [0, 2, 1, 3] in wdth=125,wght=614.
 </code></pre>
  [code: interpolation-issues]
 
@@ -735,65 +733,65 @@ fontbakery version: 0.13.2
 
 * s (U+0073): L&lt;&lt;150.0,235.0&gt;--&lt;150.0,205.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062C (U+062C): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062C (U+062C): L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062C.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062C.fina: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0686 (U+0686): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0686 (U+0686): L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0686.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0686.fina: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062D (U+062D): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D (U+062D): L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062D.alt: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.alt: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062D.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.fina: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062D.fina.alt: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062D.fina.alt: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062E (U+062E): L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062E (U+062E): L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni062E.fina: L&lt;&lt;165.0,30.0&gt;--&lt;165.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni062E.fina: L&lt;&lt;170.0,30.0&gt;--&lt;170.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0633.medi: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0633.medi: L&lt;&lt;180.0,30.0&gt;--&lt;180.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0633.init: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0633.init: L&lt;&lt;180.0,30.0&gt;--&lt;180.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0634.medi: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0634.medi: L&lt;&lt;180.0,30.0&gt;--&lt;180.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0634.init: L&lt;&lt;140.0,30.0&gt;--&lt;140.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0634.init: L&lt;&lt;180.0,30.0&gt;--&lt;180.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0637.medi: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0637.medi: L&lt;&lt;12.0,0.0&gt;--&lt;12.0,30.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0637.init: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0637.init: L&lt;&lt;12.0,0.0&gt;--&lt;12.0,30.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0638.medi: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0638.medi: L&lt;&lt;12.0,0.0&gt;--&lt;12.0,30.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0638.init: L&lt;&lt;1.0,0.0&gt;--&lt;1.0,30.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0638.init: L&lt;&lt;12.0,0.0&gt;--&lt;12.0,30.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0639.fina: L&lt;&lt;381.0,30.0&gt;--&lt;381.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0639.fina: L&lt;&lt;386.0,30.0&gt;--&lt;386.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0639.medi: L&lt;&lt;336.0,30.0&gt;--&lt;336.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0639.medi: L&lt;&lt;356.0,30.0&gt;--&lt;356.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni063A.fina: L&lt;&lt;381.0,30.0&gt;--&lt;381.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni063A.fina: L&lt;&lt;386.0,30.0&gt;--&lt;386.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni063A.medi: L&lt;&lt;336.0,30.0&gt;--&lt;336.0,0.0&gt;&gt; has the same coordinates as a previous segment.
+* uni063A.medi: L&lt;&lt;356.0,30.0&gt;--&lt;356.0,0.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0649 (U+0649): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0649 (U+0649): L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0649.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0649.fina: L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni064A (U+064A): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni064A (U+064A): L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni064A.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni064A.fina: L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0626 (U+0626): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0626 (U+0626): L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0626.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0626.fina: L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni06CC (U+06CC): L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni06CC (U+06CC): L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni06CC.fina: L&lt;&lt;386.0,87.0&gt;--&lt;356.0,87.0&gt;&gt; has the same coordinates as a previous segment.
+* uni06CC.fina: L&lt;&lt;391.0,87.0&gt;--&lt;361.0,87.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni0664 (U+0664): L&lt;&lt;390.0,360.0&gt;--&lt;390.0,330.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
@@ -826,6 +824,8 @@ fontbakery version: 0.13.2
 - twodotshorizontalabovear
 
 - twodotshorizontalbelowar
+
+- uni064406440647
 
 - uni06F4.urdu
 
@@ -873,18 +873,18 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, nko, thaana, garay, arabic, yezidi, syriac</li>
+<li>U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, garay, yezidi, arabic, syriac, nko, thaana</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, nko, thaana, garay, arabic, yezidi, syriac</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: hanifi-rohingya, nko, adlam, thaana, garay, arabic, yezidi, syriac</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, garay, yezidi, arabic, syriac, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: adlam, hanifi-rohingya, garay, yezidi, arabic, syriac, nko, thaana</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -904,7 +904,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: old-uyghur, hanifi-rohingya, sogdian, manichaean, adlam, psalter-pahlavi, arabic, mandaic, syriac</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: mandaic, adlam, hanifi-rohingya, sogdian, old-uyghur, arabic, manichaean, syriac, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -928,17 +928,17 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, hanifi-rohingya, thaana, arabic, yezidi, syriac</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, thaana, arabic, yezidi, syriac</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, thaana, syriac</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, yezidi, arabic, syriac, thaana</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, arabic, thaana, syriac</li>
 <li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
@@ -975,23 +975,23 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mongolian, myanmar, devanagari, miao, saurashtra, dogra, javanese, thaana, music, gujarati, lepcha, elbasan, gunjala-gondi, telugu, adlam, bengali, brahmi, coptic, buhid, syriac, kannada, sogdian, tagbanwa, pahawh-hmong, sharada, tifinagh, symbols, malayalam, masaram-gondi, hanunoo, khudawadi, nko, cham, manichaean, osage, hebrew, psalter-pahlavi, soyombo, newa, thai, buginese, takri, tirhuta, mandaic, khmer, limbu, bassa-vah, chakma, canadian-aboriginal, oriya, kaithi, sinhala, lao, marchen, old-permic, new-tai-lue, mahajani, duployan, balinese, rejang, zanabazar-square, bhaiksuki, sundanese, tamil, hanifi-rohingya, kayah-li, batak, math, syloti-nagri, tagalog, armenian, warang-citi, phags-pa, caucasian-albanian, tibetan, tai-viet, modi, gurmukhi, grantha, meetei-mayek, wancho, siddham, tai-le, tai-tham, ahom, yi, kharoshthi, khojki, mende-kikakui</li>
-<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
-<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: old-permic, meetei-mayek, pahawh-hmong, khojki, psalter-pahlavi, marchen, myanmar, batak, telugu, bhaiksuki, lao, tirhuta, rejang, siddham, music, malayalam, mahajani, lepcha, caucasian-albanian, tifinagh, cham, tai-tham, kayah-li, kannada, nko, coptic, duployan, chakma, masaram-gondi, math, gujarati, devanagari, grantha, sundanese, tai-viet, hebrew, thaana, syloti-nagri, warang-citi, dogra, manichaean, limbu, mandaic, javanese, oriya, new-tai-lue, canadian-aboriginal, buhid, soyombo, thai, wancho, sinhala, tibetan, miao, symbols, newa, takri, tamil, bengali, kharoshthi, sharada, khudawadi, phags-pa, modi, balinese, elbasan, sogdian, brahmi, gunjala-gondi, adlam, zanabazar-square, bassa-vah, tagalog, syriac, saurashtra, mongolian, tai-le, yi, osage, mende-kikakui, buginese, khmer, tagbanwa, hanunoo, hanifi-rohingya, armenian, ahom, gurmukhi, kaithi</li>
+<li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
+<li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code></p>
  [code: unreachable-subsetting]
@@ -1132,24 +1132,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'MSTR' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -1160,8 +1142,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 11 | 91 | 7 | 124 | 0 | 
-| 0% | 0% | 1% | 5% | 39% | 3% | 53% | 0% | 
+| 0 | 0 | 3 | 10 | 91 | 7 | 125 | 0 | 
+| 0% | 0% | 1% | 4% | 39% | 3% | 53% | 0% | 
 
 
 
