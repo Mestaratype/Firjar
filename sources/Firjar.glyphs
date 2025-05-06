@@ -1,6 +1,9 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
+DisplayStrings = (
+"/meem-ar.init"
+);
 axes = (
 {
 name = Width;
@@ -260,6 +263,7 @@ automatic = 1;
 code = "script arab;
 lookup rlig_arab_0 {
 	lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina by lam_lam_heh-ar;
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -273,6 +277,15 @@ lookup rlig_arab_0 {
 } rlig_arab_0;
 ";
 tag = rlig;
+},
+{
+automatic = 1;
+code = "lookup dlig_RTL {
+lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina by lam_lam_heh-ar;
+} dlig_RTL;
+";
+tag = dlig;
 }
 );
 fontMaster = (
@@ -22655,7 +22668,7 @@ metricRight = "kashida-ar";
 {
 color = 4;
 glyphname = "meem-ar.init";
-lastChange = "2025-05-06 14:12:51 +0000";
+lastChange = "2025-05-06 14:49:49 +0000";
 layers = (
 {
 anchors = (
@@ -22718,7 +22731,7 @@ nodes = (
 (506,190,cs),
 (506,110,l),
 (260,110,ls),
-(145,110,o),
+(260,110,o),
 (260,110,o),
 (260,110,cs)
 );
