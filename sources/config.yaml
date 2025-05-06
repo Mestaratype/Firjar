@@ -100,15 +100,3 @@ stat:
       value: 800
     - name: Black
       value: 900
-instances:
-  Firjar[wdth,wght].ttf:
-    - familyName: "Firjar"
-      styleName: "Regular"
-      coordinates:
-        wdth: 100
-        wght: 400
-    - familyName: "Firjar"
-      styleName: "Bold"
-      coordinates:
-        wdth: 100
-        wght: 600
