@@ -28,16 +28,18 @@ woffDir: $outputDir/webfonts
 # The following entries, which are either "true" or "false"
 # determine which targets to build. We turn off OTFs for this demo.
 
-#buildVariable: true
+# buildVariable: true
 # buildStatic: true
-buildTTF: true
+# buildTTF: true
 buildOTF: false
 # buildSmallCap: false
 
 # The next flags control autohinting.
-autohintTTF: false
-autohintOTF: false
-# ttfaUseScript: false  # Set this to true if your font is not Latin
+autohintTTF: true
+# autohintOTF: false
+ttfaUseScript: true  # Set this to true if your font is not Latin
+fvarInstanceAxisDflts:
+ wdth: 100
 
 # The "fix" operation can optionally fix some problems which
 # are better dealt with in the font sources. Set this to true if you
