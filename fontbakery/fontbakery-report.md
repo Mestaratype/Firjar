@@ -12,50 +12,8 @@ fontbakery version: 0.13.3
 
 
 
-<details><summary>[13] Firjar[wdth,wght].ttf</summary>
+<details><summary>[12] Firjar[wdth,wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Axes and named instances fall within correct ranges? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-fvar-regular-coords-correct">opentype/fvar/regular_coords_correct</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Regular instance has wdth coordinate of 75.0, expected 100</p>
- [code: wdth-not-100]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its subfamily name should be 'Condensed Thin'.</p>
-<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Thin', rather than ''Condensed Thin''. If the default instance is 'Thin', NameID 17 is probably the problem.</p>
- [code: invalid-default-instance-subfamily-name]
-
-
-
-* 🔥 **FAIL** <p>'Thin' instance has the same coordinates as the default instance; its postscript name should be 'Firjar-CondensedThin', instead of 'Firjar-Thin'.</p>
- [code: invalid-default-instance-postscript-name]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
@@ -729,7 +687,11 @@ fontbakery version: 0.13.3
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* S (U+0053): L&lt;&lt;194.0,335.0&gt;--&lt;194.0,305.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* M (U+004D): L&lt;&lt;30.0,640.0&gt;--&lt;60.0,640.0&gt;&gt; has the same coordinates as a previous segment.
+
+* M (U+004D): L&lt;&lt;320.0,640.0&gt;--&lt;350.0,640.0&gt;&gt; has the same coordinates as a previous segment.
+
+* S (U+0053): L&lt;&lt;194.0,335.0&gt;--&lt;194.0,305.0&gt;&gt; has the same coordinates as a previous segment.
 
 * s (U+0073): L&lt;&lt;150.0,235.0&gt;--&lt;150.0,205.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -871,18 +833,18 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: thaana, hanifi-rohingya, syriac, garay, arabic, nko, yezidi</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, syriac, thaana, yezidi, garay, hanifi-rohingya, nko</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+0615 ARABIC SMALL HIGH TAH: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: thaana, hanifi-rohingya, syriac, garay, arabic, nko, yezidi</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: thaana, hanifi-rohingya, adlam, garay, syriac, arabic, nko, yezidi</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, syriac, thaana, yezidi, garay, hanifi-rohingya, nko</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, syriac, thaana, adlam, yezidi, garay, hanifi-rohingya, nko</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
 <li>U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -902,7 +864,7 @@ definitions.</p>
 <li>U+0638 ARABIC LETTER ZAH: try adding arabic</li>
 <li>U+0639 ARABIC LETTER AIN: try adding arabic</li>
 <li>U+063A ARABIC LETTER GHAIN: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: hanifi-rohingya, psalter-pahlavi, old-uyghur, adlam, sogdian, syriac, arabic, manichaean, mandaic</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, manichaean, old-uyghur, syriac, sogdian, mandaic, psalter-pahlavi, adlam, hanifi-rohingya</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -926,19 +888,19 @@ definitions.</p>
 <li>U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac</li>
 <li>U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic</li>
 <li>U+0658 ARABIC MARK NOON GHUNNA: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: thaana, hanifi-rohingya, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, syriac, arabic, indic-siyaq-numbers, yezidi</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, thaana, nko, syriac</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic, syriac, thaana, yezidi</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -973,21 +935,21 @@ definitions.</p>
 <li>U+06CF ARABIC LETTER WAW WITH DOT ABOVE: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06DB ARABIC SMALL HIGH THREE DOTS: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
 <li>U+0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: duployan, mahajani, kannada, tirhuta, math, bassa-vah, ahom, hanunoo, takri, masaram-gondi, osage, syriac, soyombo, psalter-pahlavi, khojki, telugu, brahmi, phags-pa, tamil, music, myanmar, grantha, tai-le, kharoshthi, gujarati, cham, gunjala-gondi, lao, chakma, nko, old-permic, oriya, modi, syloti-nagri, manichaean, khmer, rejang, armenian, buhid, yi, kayah-li, coptic, tagalog, mandaic, batak, hanifi-rohingya, tagbanwa, balinese, khudawadi, sundanese, bhaiksuki, elbasan, sogdian, hebrew, warang-citi, caucasian-albanian, kaithi, symbols, malayalam, javanese, marchen, tifinagh, tai-viet, sinhala, saurashtra, zanabazar-square, miao, thaana, tibetan, tai-tham, dogra, thai, wancho, gurmukhi, bengali, siddham, pahawh-hmong, limbu, mongolian, new-tai-lue, mende-kikakui, buginese, newa, meetei-mayek, adlam, canadian-aboriginal, devanagari, sharada, lepcha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mongolian, soyombo, telugu, old-permic, ahom, elbasan, mandaic, sogdian, armenian, canadian-aboriginal, khojki, psalter-pahlavi, gujarati, batak, myanmar, chakma, music, saurashtra, buginese, kaithi, yi, sundanese, bengali, tagalog, symbols, grantha, syriac, adlam, hanifi-rohingya, bassa-vah, meetei-mayek, oriya, tirhuta, balinese, newa, kharoshthi, syloti-nagri, lepcha, rejang, masaram-gondi, gunjala-gondi, nko, thaana, siddham, duployan, mende-kikakui, miao, tifinagh, manichaean, new-tai-lue, sharada, limbu, coptic, takri, tai-le, brahmi, warang-citi, cham, zanabazar-square, sinhala, dogra, marchen, tai-tham, caucasian-albanian, phags-pa, bhaiksuki, thai, malayalam, gurmukhi, lao, tamil, khudawadi, hanunoo, wancho, pahawh-hmong, buhid, modi, kannada, kayah-li, mahajani, math, tagbanwa, devanagari, javanese, khmer, osage, tibetan, tai-viet, hebrew</li>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko</li>
 </ul>
@@ -1114,6 +1076,80 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check variable font instances <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fvar-instances">googlefonts/fvar_instances</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>fvar instance coordinates for non-wght axes are not the same as the fvar defaults. This may be intentional so please check with the font author:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">current</th>
+<th align="left">expected</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Thin</td>
+<td align="left">wdth=100.0, wght=100.0</td>
+<td align="left">wdth=75.0, wght=100.0</td>
+</tr>
+<tr>
+<td align="left">ExtraLight</td>
+<td align="left">wdth=100.0, wght=200.0</td>
+<td align="left">wdth=75.0, wght=200.0</td>
+</tr>
+<tr>
+<td align="left">Light</td>
+<td align="left">wdth=100.0, wght=300.0</td>
+<td align="left">wdth=75.0, wght=300.0</td>
+</tr>
+<tr>
+<td align="left">Regular</td>
+<td align="left">wdth=100.0, wght=400.0</td>
+<td align="left">wdth=75.0, wght=400.0</td>
+</tr>
+<tr>
+<td align="left">Medium</td>
+<td align="left">wdth=100.0, wght=500.0</td>
+<td align="left">wdth=75.0, wght=500.0</td>
+</tr>
+<tr>
+<td align="left">SemiBold</td>
+<td align="left">wdth=100.0, wght=600.0</td>
+<td align="left">wdth=75.0, wght=600.0</td>
+</tr>
+<tr>
+<td align="left">Bold</td>
+<td align="left">wdth=100.0, wght=700.0</td>
+<td align="left">wdth=75.0, wght=700.0</td>
+</tr>
+<tr>
+<td align="left">ExtraBold</td>
+<td align="left">wdth=100.0, wght=800.0</td>
+<td align="left">wdth=75.0, wght=800.0</td>
+</tr>
+<tr>
+<td align="left">Black</td>
+<td align="left">wdth=100.0, wght=900.0</td>
+<td align="left">wdth=75.0, wght=900.0</td>
+</tr>
+</tbody>
+</table>
+ [code: suspicious-fvar-coords]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
@@ -1140,8 +1176,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 3 | 10 | 91 | 7 | 125 | 0 | 
-| 0% | 0% | 1% | 4% | 39% | 3% | 53% | 0% | 
+| 0 | 0 | 1 | 11 | 91 | 7 | 126 | 0 | 
+| 0% | 0% | 0% | 5% | 39% | 3% | 53% | 0% | 
 
 
 
