@@ -39,7 +39,8 @@ autohintTTF: true
 # autohintOTF: false
 ttfaUseScript: true  # Set this to true if your font is not Latin
 fvarInstanceAxisDflts:
- wdth: 100
+  wdth: 100
+  wght: 400
 
 # The "fix" operation can optionally fix some problems which
 # are better dealt with in the font sources. Set this to true if you
