@@ -21,23 +21,23 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_1 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_1 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_1 = "../fonts/ttf/Firjar-Thin.ttf"
-LINE_2 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_2 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_2 = "../fonts/ttf/Firjar-ExtraLight.ttf"
-LINE_3 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_3 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_3 = "../fonts/ttf/Firjar-Light.ttf"
-LINE_4 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_4 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_4 = "../fonts/ttf/Firjar-Regular.ttf"
-LINE_5 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_5 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_5 = "../fonts/ttf/Firjar-SimiBold.ttf"
-LINE_6 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_6 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_6 = "../fonts/ttf/Firjar-Bold.ttf"
-LINE_7 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_7 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_7 = "../fonts/ttf/Firjar-ExtraBold.ttf"
-LINE_8 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+LINE_8 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
 FONT_LINE_8 = "../fonts/ttf/Firjar-Black.ttf"
-BIG_TEXT_FONT_SIZE = 70
+BIG_TEXT_FONT_SIZE = 72
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -104,10 +104,10 @@ def draw_main_text():
     fontSize(BIG_TEXT_FONT_SIZE)
     openTypeFeatures(kern=False)
 
-    y = HEIGHT - MARGIN - BIG_TEXT_FONT_SIZE
+    y = HEIGHT - MARGIN + 65
     
-    i_values = [FONT_LINE_1, FONT_LINE_2, FONT_LINE_3, FONT_LINE_4, FONT_LINE_5, FONT_LINE_6, FONT_LINE_7, FONT_LINE_8]
-    lines = [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]
+    i_values = [FONT_LINE_1,  FONT_LINE_4, FONT_LINE_6, FONT_LINE_8]
+    lines = [LINE_1,  LINE_4,  LINE_6,  LINE_8]
 
     for i, line in zip(i_values, lines):
         font(i)

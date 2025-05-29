@@ -57,9 +57,9 @@ newDrawing()
 
 
 # TEST FONTS
-font("../../fonts/variable/Firjar[wdth,wght].ttf")
-for axis, data in listFontVariations().items():
-    print((axis, data))
+# font("../../fonts/variable/Firjar[wdth,wght].ttf")
+# for axis, data in listFontVariations().items():
+#    print((axis, data))
 # for eachFontName in installedFonts():
 #    print(eachFontName)
 
@@ -78,22 +78,25 @@ for frame in range(F - 1):
     font("../../fonts/variable/Firjar[wdth,wght].ttf")
     fontSize(U * 3.5)
     stroke(None)
-    fill(1)
+    fill(0.0, 1.0, 0.258)
     varWght = remap(sin(step), -1, 1, 100, 900)
     varWdth = remap(sin(step), -1, 1, 75, 125)
     fontVariations(wght=varWght)
     fontVariations(wdth=100)
-    text("Balanced متوازن", ( M, M+(U*0) ))
+    text("Balanced متوازن", ( M, U *2.25 ))
     step += 0.1
     # AUXILIARY TEXT INFO
-    font("../../fonts/ttf/Firjar-Regular.ttf")
+    fill(1)
+    font("../../fonts/variable/Firjar[wdth,wght].ttf")
+    fontVariations(wght=400)
+    fontVariations(wdth=100)
     stroke(None)
     fontSize(U / 1.5)
-    text("Firjar Variable Font: Weight Axis Range (100 - 900) wght = ", (M, U * 5.25))
-    text(str(int(varWght)), (M * 12.5, U * 5.25))
+    text("Firjar Variable Font: Weight Axis Range (100 - 900) wght = ", (M, U * 6.25))
+    text(str(int(varWght)), (M * 12.5, U * 6.25))
     stroke(1)
     strokeWidth(2)
-    line((M, H - M), (W - M, H - M))
+    line((M, H - M-10), (W - M, H - M-10))
 
 # SAVE THE ANIMATION IN THIS SCRIPT'S DIRECTORY
 saveImage("weight-axis-animation.gif")
