@@ -1,4 +1,4 @@
-# Firjar Font
+# Firjar Typeface
 ![Sample Image](documentation/nameplate.png)
 
 **Firjar**  is a contemporary Kufic-inspired and minimalist bilingual typeface, covering both Arabic and Latin scripts with precision and harmony. Its name means compass in Arabic. The naming reflects the typeface design philosophy of flexibility and balance.
