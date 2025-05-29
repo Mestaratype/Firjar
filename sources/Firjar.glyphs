@@ -5,7 +5,7 @@ DisplayStrings = (
 "
 سعاد فرجار
 سعاد فرجار",
-"ءا/alef-ar.fina ٮ/behDotless-ar.fina/behDotless-ar.medi/behDotless-ar.init ح/hah-ar.fina/hah-ar.medi/hah-ar.init د/dal-ar.fina ر/reh-ar.fina س/seen-ar.fina/seen-ar.medi/seen-ar.init ص/sad-ar.fina/sad-ar.medi/sad-ar.init ط/tah-ar.fina/tah-ar.medi/tah-ar.init ع/ain-ar.fina/ain-ar.init ڡ/fehDotless-ar.fina/fehDotless-ar.medi ٯ/qafDotless-ar.fina ك/kaf-ar.fina/kaf-ar.medi/kaf-ar.init ل/lam-ar.fina/lam-ar.medi/lam-ar.init م/meem-ar.fina/meem-ar.medi/meem-ar.init ں/noonghunna-ar.fina ه/heh-ar.fina/heh-ar.medi/heh-ar.init و/waw-ar.fina ى/alefMaksura-ar.fina ـ/lam_alef-ar/lam_alef-ar.fina/lam_lam_heh-ar",
+"ءا/alef-ar.fina ٮ/behDotless-ar.fina/behDotless-ar.medi/behDotless-ar.init ح/hah-ar.fina/hah-ar.medi/hah-ar.init د/dal-ar.fina ر/reh-ar.fina س/seen-ar.fina/seen-ar.medi/seen-ar.init ص/sad-ar.fina/sad-ar.medi/sad-ar.init ط/tah-ar.fina/tah-ar.medi/tah-ar.init ع/ain-ar.fina/.notdef/ain-ar.init ڡ/fehDotless-ar.fina/fehDotless-ar.medi/.notdef ٯ/qafDotless-ar.fina ك/kaf-ar.fina/kaf-ar.medi/kaf-ar.init ل/lam-ar.fina/lam-ar.medi/lam-ar.init م/meem-ar.fina/meem-ar.medi/meem-ar.init ں/noonghunna-ar.fina ه/heh-ar.fina/heh-ar.medi/heh-ar.init و/waw-ar.fina ى/alefMaksura-ar.fina ـ/lam_alef-ar/lam_alef-ar.fina/lam_lam_heh-ar",
 "۔،؛؟٭؍﴾﴿.,:;…!¡?¿·•*#///backslash -–—_(){}[]‚„“”‘’«»‹›\"'﷼٪؉@&©®™°|¢$€£¥+−×÷=><~^%‰",
 "/ain-ar.fina ععع ع",
 "/ghain-ar.fina.ss01"
@@ -32736,7 +32736,7 @@ unicode = 65018;
 },
 {
 glyphname = "jallajalalouhou-ar";
-lastChange = "2025-05-29 18:10:59 +0000";
+lastChange = "2025-05-29 21:43:40 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -32744,14 +32744,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(175,-2,ls),
-(175,-46,o),
-(201,-72,o),
-(245,-72,cs),
-(265,-72,ls),
-(309,-72,o),
-(335,-46,o),
-(335,-2,cs),
+(175,0,ls),
+(175,-44,o),
+(201,-70,o),
+(245,-70,cs),
+(265,-70,ls),
+(309,-70,o),
+(335,-44,o),
+(335,0,cs),
 (335,270,l),
 (641,270,ls),
 (660,270,o),
@@ -32772,14 +32772,14 @@ nodes = (
 (648,290,o),
 (641,290,cs),
 (315,290,l),
-(315,-2,ls),
-(315,-34,o),
-(297,-52,o),
-(265,-52,cs),
-(245,-52,ls),
-(213,-52,o),
-(195,-34,o),
-(195,-2,cs),
+(315,0,ls),
+(315,-32,o),
+(297,-50,o),
+(265,-50,cs),
+(245,-50,ls),
+(213,-50,o),
+(195,-32,o),
+(195,0,cs),
 (195,129,l),
 (175,129,l)
 );
@@ -33028,14 +33028,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(228,-2,ls),
-(228,-43,o),
-(257,-72,o),
-(298,-72,cs),
-(342,-72,ls),
-(383,-72,o),
-(412,-43,o),
-(412,-2,cs),
+(228,0,ls),
+(228,-41,o),
+(257,-70,o),
+(298,-70,cs),
+(342,-70,ls),
+(383,-70,o),
+(412,-41,o),
+(412,0,cs),
 (412,242,l),
 (700,242,ls),
 (722,242,o),
@@ -33056,14 +33056,14 @@ nodes = (
 (669,312,o),
 (669,312,cs),
 (342,312,l),
-(342,-2,ls),
-(342,-2,o),
-(342,-2,o),
-(342,-2,cs),
-(298,-2,ls),
-(298,-2,o),
-(298,-2,o),
-(298,-2,cs),
+(342,0,ls),
+(342,0,o),
+(342,0,o),
+(342,0,cs),
+(298,0,ls),
+(298,0,o),
+(298,0,o),
+(298,0,cs),
 (298,134,l),
 (228,134,l)
 );
@@ -54648,6 +54648,6 @@ O,
 );
 };
 };
-versionMajor = 2;
-versionMinor = 0;
+versionMajor = 0;
+versionMinor = 270;
 }

@@ -25,12 +25,7 @@ customize: venv
 
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
-	(for config in sources/config.yaml; do . venv/bin/activate; gftools builder $$config; done)
-	mkdir -p fonts
-	cp -r build/ttf/* fonts/ 2>/dev/null || true
-	cp -r build/variable/* fonts/ 2>/dev/null || true
-	cp -r build/webfonts/* fonts/ 2>/dev/null || true
-	touch build.stamp
+	(for config in sources/config.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
