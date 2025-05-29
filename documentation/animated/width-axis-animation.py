@@ -92,7 +92,7 @@ for frame in range(F - 1):
     fontVariations(wdth=100)
     stroke(None)
     fontSize(U / 1.5)
-    text("Firjar Variable Font: Width Axis Range (75 - 125) wght = ", (M, U * 6.25))
+    text("Firjar Variable Font: Width Axis Range (75 - 125) wdth = ", (M, U * 6.25))
     text(str(int(varWdth)), (M * 12.5, U * 6.25))
     stroke(1)
     strokeWidth(2)

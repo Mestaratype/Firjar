@@ -25,7 +25,7 @@ The `wght` axis spans Thin (100) to Black (900).
 ![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
 
 #### `wdth` (Width) Axis
-The `wght` axis spans Condensed (75) to Expanded (125).
+The `wdth` axis spans Condensed (75) to Expanded (125).
 ![Sample Image](documentation/animated/width-axis-animation-comp.gif)
 
 ---
