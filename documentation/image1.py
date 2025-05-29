@@ -5,7 +5,7 @@
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
-from drawbot_skia.drawbot import *
+from drawBot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
@@ -18,11 +18,13 @@ import argparse
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
 FONT_PATH = "../fonts/ttf/Firjar-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "Helvetica"
+AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
 BIG_TEXT = "أبجد هوز"
 BIG_TEXT_FONT_SIZE = 500
+
+BIG_TEXT2 = "Abcdefg"
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -38,8 +40,8 @@ args = parser.parse_args()
 ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
-MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
-MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
+# MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
+# MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(1)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 
@@ -74,7 +76,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(0.051,0.066,0.09)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -84,13 +86,23 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(0.0, 1.0, 0.258)
+    fill(0, 1, 0.258)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
     _, h = textSize(BIG_TEXT)
-    y = HEIGHT - MARGIN - (h * 0.78)
+    y = HEIGHT - MARGIN - (h * 0.63)
     text(BIG_TEXT, (WIDTH / 2, y), "center")
+    
+# Draw main text
+def draw_main_text2():
+    fill(0.3, 0.3, 1, 0.5)
+    stroke(None)
+    font(FONT_PATH)
+    fontSize(BIG_TEXT_FONT_SIZE)
+    _, h = textSize(BIG_TEXT2)
+    y = HEIGHT - MARGIN - (h * 0.63)
+    text(BIG_TEXT2, (WIDTH / 2, y), "center")
 
 
 # Divider lines
@@ -106,18 +118,19 @@ def draw_divider_lines():
 # Draw text describing the font and it's git status & repo URL
 def draw_auxiliary_text():
     # Setup
+    fill(1)
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
     POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.25)
     POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
+    # URL_AND_HASH = MY_URL + "at commit " + MY_HASH
+    # URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
     # Draw Text
     text(FONT_NAME, POS_TOP_LEFT, align="left")
     text(FONT_VERSION, POS_TOP_RIGHT, align="right")
-    text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
+    text("https://github.com/Mestaratype/Firjar", POS_BOTTOM_LEFT, align="left")
     text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
 
 
@@ -125,9 +138,10 @@ def draw_auxiliary_text():
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
+    draw_main_text2()
     draw_divider_lines()
     draw_auxiliary_text()
     # Save output, using the "--output" flag location
-    saveImage(args.output)
+    saveImage("image1.png")
     # Print done in the terminal
     print("DrawBot: Done")
