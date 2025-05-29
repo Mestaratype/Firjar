@@ -1,4 +1,3 @@
-----
 # Firjar Font
 ![Sample Image](documentation/nameplate.png)
 
@@ -9,17 +8,12 @@ The concept of Firjar design is inspired by the compass’s capabilities, which 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
----
 
 ## Variable Font Axes
 
 The typeface spans a wide range of styles — from condensed to extended widths and from thin to black weights — making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
 
-![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
-![Sample Image](documentation/animated/width-axis-animation-comp.gif)
-
-
-Firjar is also a variable font built with:
+Firjar has the following axes:
 
 | Axis | Tag | Range | Default | Static Instances |
 | --- | --- | --- | --- | --- |
@@ -28,6 +22,11 @@ Firjar is also a variable font built with:
 
 #### `wght` (Weight) Axis
 The `wght` axis spans Thin (100) to Black (900).
+![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
+
+#### `wdth` (Width) Axis
+The `wght` axis spans Condensed (75) to Expanded (125).
+![Sample Image](documentation/animated/width-axis-animation-comp.gif)
 
 ---
 
