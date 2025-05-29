@@ -16,27 +16,27 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1408, 128, 1
-FONT_PATH = "../fonts/ttf/Firjar-Regular.ttf"
+FONT_PATH = "fonts/ttf/Firjar-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
+AUXILIARY_FONT = "fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
 LINE_1 = "العلم في الصغر كالنقش على الحجر"
-FONT_LINE_1 = "../fonts/ttf/Firjar-Thin.ttf"
+FONT_LINE_1 = "fonts/ttf/Firjar-Thin.ttf"
 LINE_2 = "Learning in childhood is like engraving on stone"
-FONT_LINE_2 = "../fonts/ttf/Firjar-Thin.ttf"
+FONT_LINE_2 = "fonts/ttf/Firjar-Thin.ttf"
 LINE_3 = "العلم في الصغر كالنقش على الحجر"
-FONT_LINE_3 = "../fonts/ttf/Firjar-Regular.ttf"
+FONT_LINE_3 = "fonts/ttf/Firjar-Regular.ttf"
 LINE_4 = "Learning in childhood is like engraving on stone"
-FONT_LINE_4 = "../fonts/ttf/Firjar-Regular.ttf"
+FONT_LINE_4 = "fonts/ttf/Firjar-Regular.ttf"
 LINE_5 = "العلم في الصغر كالنقش على الحجر"
-FONT_LINE_5 = "../fonts/ttf/Firjar-Bold.ttf"
+FONT_LINE_5 = "fonts/ttf/Firjar-Bold.ttf"
 LINE_6 = "Learning in childhood is like engraving on stone"
-FONT_LINE_6 = "../fonts/ttf/Firjar-Bold.ttf"
+FONT_LINE_6 = "fonts/ttf/Firjar-Bold.ttf"
 LINE_7 = "العلم في الصغر كالنقش على الحجر"
-FONT_LINE_7 = "../fonts/ttf/Firjar-Black.ttf"
+FONT_LINE_7 = "fonts/ttf/Firjar-Black.ttf"
 LINE_8 = "Learning in childhood is like engraving on stone"
-FONT_LINE_8 = "../fonts/ttf/Firjar-Black.ttf"
+FONT_LINE_8 = "fonts/ttf/Firjar-Black.ttf"
 BIG_TEXT_FONT_SIZE = 72
 
 GRID_VIEW = False  # Toggle this for a grid overlay
