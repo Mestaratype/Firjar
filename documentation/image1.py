@@ -5,7 +5,7 @@
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
-from drawBot import *
+from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
@@ -91,7 +91,7 @@ def draw_main_text():
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
     _, h = textSize(BIG_TEXT)
-    y = HEIGHT - MARGIN - (h * 0.63)
+    y = HEIGHT - MARGIN - (h * 0.75)
     text(BIG_TEXT, (WIDTH / 2, y), "center")
     
 # Draw main text
@@ -101,7 +101,7 @@ def draw_main_text2():
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
     _, h = textSize(BIG_TEXT2)
-    y = HEIGHT - MARGIN - (h * 0.63)
+    y = HEIGHT - MARGIN - (h * 0.75)
     text(BIG_TEXT2, (WIDTH / 2, y), "center")
 
 

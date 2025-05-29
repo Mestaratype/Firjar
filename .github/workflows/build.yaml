@@ -53,8 +53,8 @@ jobs:
       run: make proof
     - name: setup site
       run: cp scripts/index.html out/index.html
-    # - name: Generate images in documentation
-    #  run: make images
+    - name: Generate images in documentation
+      run: make images
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       if: ${{ github.ref == 'refs/heads/main' }}

@@ -5,7 +5,7 @@
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import modules from external python packages: https://pypi.org/
-from drawBot import *
+from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
@@ -21,21 +21,21 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_1 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
+LINE_1 = "العلم في الصغر كالنقش على الحجر"
 FONT_LINE_1 = "../fonts/ttf/Firjar-Thin.ttf"
-LINE_2 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
-FONT_LINE_2 = "../fonts/ttf/Firjar-ExtraLight.ttf"
-LINE_3 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
-FONT_LINE_3 = "../fonts/ttf/Firjar-Light.ttf"
-LINE_4 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
+LINE_2 = "Learning in childhood is like engraving on stone"
+FONT_LINE_2 = "../fonts/ttf/Firjar-Thin.ttf"
+LINE_3 = "العلم في الصغر كالنقش على الحجر"
+FONT_LINE_3 = "../fonts/ttf/Firjar-Regular.ttf"
+LINE_4 = "Learning in childhood is like engraving on stone"
 FONT_LINE_4 = "../fonts/ttf/Firjar-Regular.ttf"
-LINE_5 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
-FONT_LINE_5 = "../fonts/ttf/Firjar-SimiBold.ttf"
-LINE_6 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
+LINE_5 = "العلم في الصغر كالنقش على الحجر"
+FONT_LINE_5 = "../fonts/ttf/Firjar-Bold.ttf"
+LINE_6 = "Learning in childhood is like engraving on stone"
 FONT_LINE_6 = "../fonts/ttf/Firjar-Bold.ttf"
-LINE_7 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
-FONT_LINE_7 = "../fonts/ttf/Firjar-ExtraBold.ttf"
-LINE_8 = "العلم في الصغر كالنقش على الحجر\nLearning in childhood is like engraving on stone"
+LINE_7 = "العلم في الصغر كالنقش على الحجر"
+FONT_LINE_7 = "../fonts/ttf/Firjar-Black.ttf"
+LINE_8 = "Learning in childhood is like engraving on stone"
 FONT_LINE_8 = "../fonts/ttf/Firjar-Black.ttf"
 BIG_TEXT_FONT_SIZE = 72
 
@@ -104,16 +104,21 @@ def draw_main_text():
     fontSize(BIG_TEXT_FONT_SIZE)
     openTypeFeatures(kern=False)
 
-    y = HEIGHT - MARGIN + 65
+    y = HEIGHT - MARGIN
     
-    i_values = [FONT_LINE_1,  FONT_LINE_4, FONT_LINE_6, FONT_LINE_8]
-    lines = [LINE_1,  LINE_4,  LINE_6,  LINE_8]
-
+    i_values = [FONT_LINE_1, FONT_LINE_2, FONT_LINE_3, FONT_LINE_4, FONT_LINE_5, FONT_LINE_6, FONT_LINE_7, FONT_LINE_8]
+    lines = [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]
+    num=0
     for i, line in zip(i_values, lines):
         font(i)
         _, h = textSize(line)
-        y -= h
+        if num % 2:
+            y -= h # Odd
+        else:
+            y -= h + 52 # Even
+        num += 1
         text(line, (WIDTH / 2, y), "center")
+        
     
     # for line in [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]:
     #     _, h = textSize(line)

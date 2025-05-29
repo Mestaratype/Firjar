@@ -1,6 +1,6 @@
 # drawbot.com - use drawbot-skia on Linux systems
 # $ pip install git+https://github.com/typemytype/drawbot
-from drawBot import *
+from drawbot_skia.drawbot import *
 
 
 # Constants, these are the main "settings" for the image
@@ -49,7 +49,7 @@ def draw_background():
 def draw_image():
     draw_background()
     stroke(None)
-    font("../../fonts/variable/Firjar[wdth,wght].ttf")
+    font("../fonts/variable/Firjar[wdth,wght].ttf")
     fontSize(MARGIN * 1.25)
     fontVariations(wght=800)
     fontVariations(wdth=100)
