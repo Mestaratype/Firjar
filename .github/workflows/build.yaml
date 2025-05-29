@@ -68,6 +68,7 @@ jobs:
         path: |
           fonts
           out
+          documentation/*.png
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
