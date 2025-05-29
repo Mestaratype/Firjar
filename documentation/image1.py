@@ -142,6 +142,7 @@ if __name__ == "__main__":
     draw_divider_lines()
     draw_auxiliary_text()
     # Save output, using the "--output" flag location
-    saveImage("image1.png")
+    saveImage(args.output)
     # Print done in the terminal
+    print(args.output)
     print("DrawBot: Done")
