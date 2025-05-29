@@ -19,7 +19,7 @@ familyName: "Firjar"
 # binaries to live. But we'd recommend you stick to the defaults
 # especially if you are planning to upload your font to Google Fonts.
 
-outputDir: fonts
+outputDir: ../fonts
 vfDir: $outputDir/variable
 ttDir: $outputDir/ttf
 otDir: $outputDir/otf
