@@ -5,7 +5,7 @@
 # $ python3 documentation/image1.py --output documentation/image1.png
 
 # Import modules from external python packages: https://pypi.org/
-from drawbot_skia.drawbot import *
+from drawBot import *
 from fontTools.ttLib import TTFont
 from fontTools.misc.fixedTools import floatToFixedToStr
 
@@ -15,21 +15,29 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2208, 128, 1
-FONT_PATH = "fonts/ttf/Firjar-Regular.ttf"
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1408, 128, 1
+FONT_PATH = "../fonts/ttf/Firjar-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "Helvetica"
+AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_1 = "’ا‍ا‌ٮٮٮ‌حح‌سس‌صص‌طط‌ع‌ععع‌‘"
-LINE_2 = "‹ڡڡ‌ٯ‌‍ٯ‌كك‌لل‌لا‌‍لا‌ممم‌ه‌هہه‌‍ہ‌ھ›"
-LINE_3 = "«د ‍د‌ر ‍ر‌و ‍و‌ں ‌‍ں‌ى‌‍ى‌ے‌‍ے‌ء‌لح‌لح‍‌ ٮح‌ٮح‍»"
-LINE_4 = "◌ّ◌ْ◌ٌ◌ُ◌ِ◌َ٠١٢٣٤٥٦٧٨٩٪،؛؟"
-LINE_5 = "‘ABCDEFGHIJKLMNOPQ’"
-LINE_6 = "“RSTUVWXYZ123456789”"
-LINE_7 = "«abcdefghijklmnopqrstu»"
-LINE_8 = "vwxyz,.;:!?@#$%^&*(){}[]"
-BIG_TEXT_FONT_SIZE = 160
+LINE_1 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_1 = "../fonts/ttf/Firjar-Thin.ttf"
+LINE_2 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_2 = "../fonts/ttf/Firjar-ExtraLight.ttf"
+LINE_3 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_3 = "../fonts/ttf/Firjar-Light.ttf"
+LINE_4 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_4 = "../fonts/ttf/Firjar-Regular.ttf"
+LINE_5 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_5 = "../fonts/ttf/Firjar-SimiBold.ttf"
+LINE_6 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_6 = "../fonts/ttf/Firjar-Bold.ttf"
+LINE_7 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_7 = "../fonts/ttf/Firjar-ExtraBold.ttf"
+LINE_8 = "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر‌‌‌‌‌‌"
+FONT_LINE_8 = "../fonts/ttf/Firjar-Black.ttf"
+BIG_TEXT_FONT_SIZE = 70
 
 GRID_VIEW = False  # Toggle this for a grid overlay
 
@@ -45,9 +53,9 @@ args = parser.parse_args()
 ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
-MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
-MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
-FONT_NAME = ttFont["name"].getDebugName(4)
+# MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
+# MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
+FONT_NAME = ttFont["name"].getDebugName(1)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 
 
@@ -81,7 +89,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(0.051,0.066,0.09)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -91,18 +99,26 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(0.0, 1.0, 0.2588)
+    fill(0.0, 1.0, 0.258)
     stroke(None)
-    font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
     openTypeFeatures(kern=False)
 
-    y = HEIGHT - MARGIN
-    for line in [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]:
+    y = HEIGHT - MARGIN - BIG_TEXT_FONT_SIZE
+    
+    i_values = [FONT_LINE_1, FONT_LINE_2, FONT_LINE_3, FONT_LINE_4, FONT_LINE_5, FONT_LINE_6, FONT_LINE_7, FONT_LINE_8]
+    lines = [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]
+
+    for i, line in zip(i_values, lines):
+        font(i)
         _, h = textSize(line)
         y -= h
-
         text(line, (WIDTH / 2, y), "center")
+    
+    # for line in [LINE_1, LINE_2, LINE_3, LINE_4, LINE_5, LINE_6, LINE_7, LINE_8]:
+    #     _, h = textSize(line)
+    #     y -= h
+    #     text(line, (WIDTH / 2, y), "center")
 
 
 # Divider lines
@@ -118,6 +134,7 @@ def draw_divider_lines():
 # Draw text describing the font and it's git status & repo URL
 def draw_auxiliary_text():
     # Setup
+    fill(1)
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
     POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.25)
@@ -125,13 +142,13 @@ def draw_auxiliary_text():
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
     # URL_AND_HASH = "github.com/googlefonts/googlefonts-project-template " + "at commit " + MY_HASH
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
+    # URL_AND_HASH = MY_URL + "at commit " + MY_HASH
+    # URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
     # Draw Text
     # text("Your Font Regular", POS_TOP_LEFT, align="left")
     text(FONT_NAME, POS_TOP_LEFT, align="left")
     text(FONT_VERSION, POS_TOP_RIGHT, align="right")
-    text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
+    text("https://github.com/Mestaratype/Firjar", POS_BOTTOM_LEFT, align="left")
     text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
 
 
@@ -142,6 +159,6 @@ if __name__ == "__main__":
     draw_divider_lines()
     draw_auxiliary_text()
     # Save output, using the "--output" flag location
-    saveImage(args.output)
+    saveImage("image2.png")
     # Print done in the terminal
     print("DrawBot: Done")
