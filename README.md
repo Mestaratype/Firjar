@@ -1,14 +1,23 @@
 ----
 # Firjar Font
-![Sample Image](documentation/image-title.png)
+![Sample Image](documentation/nameplate.png)
 
 [![][Fontbakery]](https://mestaratype.github.io/Firjar/fontbakery/fontbakery-report.html)
 
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2Foverall.json
 
-**Firjar**  is a contemporary Kufic-inspired and minimalist bilingual typeface, covering both Arabic and Latin scripts with precision and harmony. Its name, meaning compass in Arabic, reflects its design philosophy of guidance and balance.
+**Firjar**  is a contemporary Kufic-inspired and minimalist bilingual typeface, covering both Arabic and Latin scripts with precision and harmony. Its name means compass in Arabic. The naming reflects the typeface design philosophy of flexibility and balance.
 
-The concept of Firjar draws from the structure of a compass, built using quarter-circle curves combined with clean, straight lines. The type family spans a wide range of styles — from condensed to extended widths and from thin to black weights — making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
+![Sample Image](documentation/image1.png)
+![Sample Image](documentation/image2.png)
+
+The concept of Firjar design is inspired by the compass’s capabilities, which are designed using quarter-circled curves combined with clean straight lines. 
+
+
+![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
+![Sample Image](documentation/animated/width-axis-animation-comp.gif)
+
+The typeface spans a wide range of styles — from condensed to extended widths and from thin to black weights — making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
 
 
 ## Variable Font Axes
@@ -22,15 +31,6 @@ Firjar is also a variable font built with:
 
 #### `wght` (Weight) Axis
 The `wght` axis spans Thin (100) to Black (900).
-
----
-
-![Sample Image](documentation/image-preview1.png)
-![Sample Image](documentation/image-preview2.png)
-![Sample Image](documentation/variable-animation.gif)
-![Sample Image](documentation/image-preview3.png)
-![Sample Image](documentation/image-preview4.png)
-![Sample Image](documentation/image-preview5.png)
 
 ---
 
