@@ -51,7 +51,7 @@ def draw_image():
     stroke(None)
     font("../fonts/variable/Firjar[wdth,wght].ttf")
     fontSize(MARGIN * 1.25)
-    fontVariations(wght=800)
+    fontVariations(wght=700)
     fontVariations(wdth=100)
     fill(0.8, 0.2, 1)
     text("Firjar", (MARGIN - 80, HEIGHT - MARGIN * 1.25), align="left")
