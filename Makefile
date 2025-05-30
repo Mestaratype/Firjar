@@ -43,8 +43,7 @@ test: venv-test build.stamp
 proof: venv build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
 
-images: venv build.stamp $(DRAWBOT_OUTPUT)
-	git add documentation/*.png && git commit -m "Rebuild images" documentation/*.png
+images: venv $(DRAWBOT_OUTPUT)
 
 %.png: %.py build.stamp
 	. venv/bin/activate; python3 $< --output $@
