@@ -11,7 +11,7 @@ The concept of Firjar design is inspired by the compass’s capabilities, which 
 
 ## Variable Font Axes
 
-The typeface spans a wide range of styles — from condensed to extended widths and from thin to black weights — making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
+The typeface spans a wide range of styles, from condensed to extended widths and from thin to black weights, making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
 
 Firjar has the following axes:
 
