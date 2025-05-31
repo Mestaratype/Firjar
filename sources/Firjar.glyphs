@@ -1447,7 +1447,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (87,10);
+pos = (211,10);
 ref = ogonekcomb;
 }
 );
@@ -1460,7 +1460,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (452,10);
+pos = (576,10);
 ref = ogonekcomb;
 }
 );
@@ -3409,7 +3409,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (40,10);
+pos = (164,10);
 ref = ogonekcomb;
 }
 );
@@ -3422,7 +3422,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (349,10);
+pos = (473,10);
 ref = ogonekcomb;
 }
 );
@@ -3900,7 +3900,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (112,0);
+pos = (139,0);
 ref = commaaccentcomb;
 }
 );
@@ -4826,7 +4826,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-187,10);
+pos = (-63,10);
 ref = ogonekcomb;
 }
 );
@@ -4839,7 +4839,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-97,10);
+pos = (27,10);
 ref = ogonekcomb;
 }
 );
@@ -5336,7 +5336,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (80,0);
+pos = (107,0);
 ref = commaaccentcomb;
 }
 );
@@ -5616,7 +5616,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (260,-111);
+pos = (195,-111);
 ref = caroncomb.alt;
 }
 );
@@ -5675,7 +5675,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (43,0);
+pos = (70,0);
 ref = commaaccentcomb;
 }
 );
@@ -6176,7 +6176,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (84,0);
+pos = (111,0);
 ref = commaaccentcomb;
 }
 );
@@ -8024,7 +8024,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (108,0);
+pos = (135,0);
 ref = commaaccentcomb;
 }
 );
@@ -8338,7 +8338,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (94,0);
+pos = (121,0);
 ref = commaaccentcomb;
 }
 );
@@ -8968,7 +8968,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (86,10);
+pos = (205,10);
 ref = ogonekcomb;
 }
 );
@@ -8981,7 +8981,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (525,10);
+pos = (604,10);
 ref = ogonekcomb;
 }
 );
@@ -8994,7 +8994,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (280,10);
+pos = (148,10);
 ref = ogonekcomb;
 }
 );
@@ -11198,7 +11198,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (25,10);
+pos = (149,10);
 ref = ogonekcomb;
 }
 );
@@ -11211,7 +11211,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (397,10);
+pos = (521,10);
 ref = ogonekcomb;
 }
 );
@@ -12152,7 +12152,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (321,0);
+pos = (256,239);
 ref = caroncomb.alt;
 }
 );
@@ -13077,7 +13077,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (25,10);
+pos = (149,10);
 ref = ogonekcomb;
 }
 );
@@ -13090,7 +13090,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (371,10);
+pos = (495,10);
 ref = ogonekcomb;
 }
 );
@@ -14694,7 +14694,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (60,0);
+pos = (87,0);
 ref = commaaccentcomb;
 }
 );
@@ -14967,7 +14967,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (90,239);
+pos = (25,239);
 ref = caroncomb.alt;
 }
 );
@@ -15026,7 +15026,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-42,0);
+pos = (-15,0);
 ref = commaaccentcomb;
 }
 );
@@ -15585,7 +15585,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (76,0);
+pos = (103,0);
 ref = commaaccentcomb;
 }
 );
@@ -17322,7 +17322,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (81,0);
+pos = (108,0);
 ref = commaaccentcomb;
 }
 );
@@ -17697,7 +17697,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (17,0);
+pos = (44,0);
 ref = commaaccentcomb;
 }
 );
@@ -18228,7 +18228,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (25,10);
+pos = (149,10);
 ref = ogonekcomb;
 }
 );
@@ -18241,7 +18241,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (385,10);
+pos = (509,10);
 ref = ogonekcomb;
 }
 );
@@ -58555,13 +58555,17 @@ unicode = 8240;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2025-05-05 15:40:26 +0000";
+lastChange = "2025-05-31 15:42:19 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 pos = (285,0);
+},
+{
+name = ogonek;
+pos = (284,0);
 },
 {
 name = top;
@@ -58784,6 +58788,10 @@ name = bottom;
 pos = (285,0);
 },
 {
+name = ogonek;
+pos = (284,0);
+},
+{
 name = top;
 pos = (285,469);
 }
@@ -59004,6 +59012,10 @@ name = bottom;
 pos = (285,0);
 },
 {
+name = ogonek;
+pos = (284,0);
+},
+{
 name = top;
 pos = (285,449);
 }
@@ -59222,6 +59234,10 @@ anchors = (
 {
 name = bottom;
 pos = (285,0);
+},
+{
+name = ogonek;
+pos = (284,0);
 },
 {
 name = top;
@@ -64292,13 +64308,13 @@ unicode = 807;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2025-05-31 12:16:53 +0000";
+lastChange = "2025-05-31 15:39:04 +0000";
 layers = (
 {
 anchors = (
 {
 name = _ogonek;
-pos = (268,0);
+pos = (144,0);
 }
 );
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -64313,7 +64329,7 @@ width = 300;
 anchors = (
 {
 name = _ogonek;
-pos = (268,0);
+pos = (144,0);
 }
 );
 layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
