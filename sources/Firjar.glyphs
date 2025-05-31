@@ -378,7 +378,7 @@ value = "ain-ar";
 },
 {
 name = typoAscender;
-value = 990;
+value = 1100;
 },
 {
 name = typoDescender;
@@ -390,7 +390,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 990;
+value = 1100;
 },
 {
 name = hheaDescender;
@@ -402,7 +402,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 990;
+value = 1100;
 },
 {
 name = winDescent;
@@ -498,7 +498,7 @@ value = "ain-ar";
 },
 {
 name = typoAscender;
-value = 990;
+value = 1100;
 },
 {
 name = typoDescender;
@@ -510,7 +510,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 990;
+value = 1100;
 },
 {
 name = hheaDescender;
@@ -522,7 +522,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 990;
+value = 1100;
 },
 {
 name = winDescent;
@@ -618,7 +618,7 @@ value = "ain-ar";
 },
 {
 name = typoAscender;
-value = 990;
+value = 1100;
 },
 {
 name = typoDescender;
@@ -630,7 +630,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 990;
+value = 1100;
 },
 {
 name = hheaDescender;
@@ -642,7 +642,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 990;
+value = 1100;
 },
 {
 name = winDescent;
@@ -736,7 +736,7 @@ value = "ain-ar";
 },
 {
 name = typoAscender;
-value = 990;
+value = 1141;
 },
 {
 name = typoDescender;
@@ -748,7 +748,7 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 990;
+value = 1141;
 },
 {
 name = hheaDescender;
@@ -760,7 +760,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 990;
+value = 1141;
 },
 {
 name = winDescent;
