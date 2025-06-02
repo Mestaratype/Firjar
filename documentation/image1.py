@@ -16,9 +16,9 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/Firjar-Regular.ttf"
+FONT_PATH = "../fonts/ttf/Firjar-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "fonts/ttf/Firjar-Regular.ttf"
+AUXILIARY_FONT = "../fonts/ttf/Firjar-Regular.ttf"
 AUXILIARY_FONT_SIZE = 48
 
 BIG_TEXT = "أبجد هوز"
@@ -142,7 +142,6 @@ if __name__ == "__main__":
     draw_divider_lines()
     draw_auxiliary_text()
     # Save output, using the "--output" flag location
-    saveImage(args.output)
+    saveImage("image1.png")
     # Print done in the terminal
-    print(args.output)
     print("DrawBot: Done")
