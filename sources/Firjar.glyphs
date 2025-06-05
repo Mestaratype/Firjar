@@ -6,7 +6,6 @@ DisplayStrings = (
 
 The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃
 ÁÂÄÀÅÃÇÐäåçóôöòṏ̧̇̀́̂̊̃",
-"AÁÂÄÀÅÃCÇÐaäåcçóôöòṏ̧̇̀́̂̊̃¨˙`´˝ˆˇ˘˚˜¯¸˛",
 "ء/alef-ar.fina ٮ/behDotless-ar.init ح/hah-ar.alt/hah-ar.init درس/seen-ar.init ع/ain-ar.init ڡ/fehDotless-ar.ss01/fehDotless-ar.init/fehDotless-ar.init.ss01 ٯك/kaf-ar.init کل/lam-ar.init م/meem-ar.init ںه/heh-ar.init وىے/lam_alef-ar/lam_lam_heh-ar",
 "ABCDEFGHIJKLMNOPQRSTUVWXYZ
 tabcdefghijklmnopqrstuvwxyz",
@@ -724,7 +723,6 @@ stemValues = (
 userData = {
 GSCornerRadius = 40;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -10599,7 +10597,7 @@ unicode = 379;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2025-06-05 20:24:30 +0000";
+lastChange = "2025-06-05 20:37:48 +0000";
 layers = (
 {
 anchors = (
@@ -10769,10 +10767,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(361,183,l),
+(361,173,l),
 (361,283,l),
 (40,261,l),
-(40,161,l)
+(40,151,l)
 );
 }
 );
@@ -10916,14 +10914,14 @@ pos = (667,10);
 },
 {
 name = top;
-pos = (371,434);
+pos = (371,435);
 }
 );
 associatedMasterId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
 attr = {
 coordinates = (
 125,
-90
+100
 );
 };
 layerId = "F3FEFC6C-0EB9-4E86-9525-4E129168F597";
@@ -10935,41 +10933,41 @@ strokePos = 1;
 };
 closed = 1;
 nodes = (
-(656,0,l),
-(656,277,ls),
-(656,385,o),
-(601,440,o),
-(493,440,cs),
-(108,440,l),
-(108,367,l),
-(493,367,ls),
-(543,367,o),
-(570,339,o),
-(570,281,cs),
-(570,73,l),
-(242,73,ls),
-(191,73,o),
-(165,106,o),
-(165,163,cs),
-(165,223,l),
-(79,223,l),
-(79,163,ls),
-(79,55,o),
-(133,0,o),
-(242,0,cs)
+(661,0,l),
+(661,275,ls),
+(660,386,o),
+(606,440,o),
+(496,440,cs),
+(105,440,l),
+(105,360,l),
+(496,360,ls),
+(542,360,o),
+(566,334,o),
+(566,280,cs),
+(566,80,l),
+(240,80,ls),
+(193,80,o),
+(170,112,o),
+(170,165,cs),
+(170,223,l),
+(75,223,l),
+(75,165,ls),
+(74,54,o),
+(130,0,o),
+(240,0,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(647,184,l),
-(647,257,l),
-(79,245,l),
-(79,172,l)
+(652,177,l),
+(652,257,l),
+(75,246,l),
+(75,166,l)
 );
 }
 );
-width = 741;
+width = 742;
 }
 );
 metricLeft = o;
