@@ -28,13 +28,6 @@ The `wght` axis spans Thin (100) to Black (900).
 The `wdth` axis spans Condensed (75) to Expanded (125).
 ![Sample Image](documentation/animated/width-axis-animation-comp.gif)
 
----
-
-## Roadmap
-
-- [ ] Polish Latin Extended glyphs and Kerning.
-- [x] Expand Latin character set to cover [GF Arabic Core glyphsets](https://github.com/googlefonts/glyphsets/blob/main/Lib/glyphsets/results/nam/GF_Arabic_Core.nam).
-- [x] Expanding the width axis range to Exrta condenced and Ultra Expanded.
 
 ---
 
