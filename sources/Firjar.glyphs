@@ -2688,7 +2688,7 @@ unicode = 270;
 },
 {
 glyphname = Dcroat;
-lastChange = "2025-05-31 14:36:47 +0000";
+lastChange = "2025-07-15 12:45:18 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -2706,7 +2706,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 912;
+width = 932;
 },
 {
 layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
@@ -2715,7 +2715,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 541;
+width = 530;
 },
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -2724,7 +2724,7 @@ shapes = (
 ref = Eth;
 }
 );
-width = 1061;
+width = 1134;
 }
 );
 unicode = 272;
@@ -2733,19 +2733,19 @@ unicode = 272;
 glyphname = Eth;
 kernLeft = H;
 kernRight = O;
-lastChange = "2025-06-22 10:23:30 +0000";
+lastChange = "2025-07-15 12:45:15 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
 shapes = (
 {
 alignment = -1;
-pos = (62,0);
+pos = (67,0);
 ref = D;
 },
 {
 alignment = -1;
-pos = (-46,-320);
+pos = (-41,-320);
 ref = macron;
 }
 );
@@ -2756,51 +2756,51 @@ layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
 shapes = (
 {
 alignment = -1;
-pos = (112,0);
+pos = (122,0);
 ref = D;
 },
 {
 alignment = -1;
-pos = (-74,-320);
+pos = (-64,-320);
 ref = macron;
 scale = (2.0289,1);
 }
 );
-width = 912;
+width = 932;
 },
 {
 layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
 shapes = (
 {
 alignment = -1;
-pos = (47,0);
+pos = (45,0);
 ref = D;
 },
 {
 alignment = -1;
-pos = (-66,-320);
+pos = (-68,-320);
 ref = macron;
 scale = (1.55,1);
 }
 );
-width = 541;
+width = 530;
 },
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
 shapes = (
 {
 alignment = -1;
-pos = (128,0);
+pos = (152,0);
 ref = D;
 },
 {
 alignment = -1;
-pos = (-178,-320);
+pos = (-154,-320);
 ref = macron;
 scale = (3.2073,1);
 }
 );
-width = 1061;
+width = 1134;
 }
 );
 metricLeft = D;
@@ -49288,23 +49288,23 @@ unicode = 32;
 glyphname = nbspace;
 kernLeft = nbspace;
 kernRight = nbspace;
-lastChange = "2025-06-22 10:23:30 +0000";
+lastChange = "2025-07-15 12:44:52 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
-width = 200;
+width = 300;
 },
 {
 layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
-width = 200;
+width = 300;
 },
 {
 layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
-width = 80;
+width = 180;
 },
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
-width = 110;
+width = 180;
 }
 );
 metricWidth = space;
