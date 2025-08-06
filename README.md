@@ -31,6 +31,10 @@ The `wdth` axis spans Condensed (75) to Expanded (125).
 
 ---
 
+## About
+
+**Mestara** is a type foundry specialized in creating and designing Arabic typefaces. Founded by a professional calligrapher and designer, Mestara aims to reflect the beauty, and modernity while respecting traditional calligraphic principles. [Visit our website](https://mestara.com)
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
@@ -42,29 +46,6 @@ If you want to build fonts manually on your own computer:
 * `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at (https://mestaratype.github.io/Firjar/).
-
----
-
-## Contributing
-
-We warmly welcome contributions to **Firjar**!  
-Whether you are a type designer, developer, linguist, or simply passionate about typography, your input can help make this project even better.
-
-You can contribute by:
-- Improving the design of glyphs.
-- Extending language support.
-- Optimizing spacing, kerning, or hinting.
-- Enhancing the documentation or technical files.
-- Reporting issues or suggesting improvements.
-
-Thank you for being part of the open-source type community!  
-Together, we can build a better, more flexible font for everyone.
-
----
-
-## About
-
-**Mestara** is a type foundry specialized in creating and designing Arabic typefaces. Founded by a professional calligrapher and designer, Mestara aims to reflect the beauty, and modernity while respecting traditional calligraphic principles. [Visit our website](https://mestara.com)
 
 ## License
 
