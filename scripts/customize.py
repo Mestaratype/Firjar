@@ -14,7 +14,7 @@ import requests
 
 BASE_OWNER = "googlefonts"
 BASE_REPONAME = "googlefonts-project-template"
-DUMMY_URL = "https://yourname.github.io/your-font-repository-name"
+DUMMY_URL = "https://Mestaratype.github.io/Firjar"
 LATEST_OFL = "https://raw.githubusercontent.com/googlefonts/googlefonts-project-template/main/OFL.txt"
 
 
@@ -24,10 +24,6 @@ def repo_url(owner, name):
 
 def web_url(owner, name):
     return f"https://{owner}.github.io/{name}"
-
-
-def raw_url(owner, name):
-    return f"https://raw.githubusercontent.com/{owner}/{name}"
 
 
 def lose(msg, e=None):
@@ -76,11 +72,11 @@ project_url = repo_url(owner, reponame)
 print("Fixing URLs:", web_url(BASE_OWNER, BASE_REPONAME), "->", ghpages_url)
 
 readme = readme.replace(web_url(BASE_OWNER, BASE_REPONAME), ghpages_url)
-# In the badges, the URLs to raw.githubusercontent.com are URL-encoded as they
+# In the badges, the URLs to github.io are URL-encoded as they
 # are passed to shields.io.
 readme = readme.replace(
-    quote(raw_url(BASE_OWNER, BASE_REPONAME), safe=""),
-    quote(raw_url(owner, reponame), safe=""),
+    quote(web_url(BASE_OWNER, BASE_REPONAME), safe=""),
+    quote(web_url(owner, reponame), safe=""),
 )
 
 print("Fixing URLs:", DUMMY_URL, "->", ghpages_url)
