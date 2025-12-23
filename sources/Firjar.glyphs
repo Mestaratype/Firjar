@@ -1,5 +1,5 @@
 {
-.appVersion = "3507";
+.appVersion = "3508";
 .formatVersion = 3;
 DisplayStrings = (
 "Emboldeners Moth-Eats Denationalising Pinion Clancy Indisposition Giltcup Tiros Nudged Spirituals Snuffers Probation Centrosomes Stanchless Candle-Lighter Aciniform Soppings Strait-Lacing Bishop'S-Cap Parochiality Mystifiers Slot-Machine Surrealist Slang-Whanger Sestetts Misdemeanours Sand-Lark Sloane Oestrous Alpines Instinct Azores Standards Sulphured Acted Conniption Candock Understood Bentley Unguis Unprovokedly Selenate Fox-Hunters Hearsed Alkyl Hylopathism Theologate Quiddit Subterranean Vitalises Macchie Propheticism Reawakens Fatness Miltonian Rectorial Oil-Bird Assumes Headbangs Impoliticness Benni Agendas Vocular Periphrase Scoff Stork'S-Bill Snowstorm Plagiocephaly Satyric Albumenised Citing Groupie Molehunters Pencil-Cedar Grimace Alcyonium Restrictively Antidotal Quarry Screen-Saver Barracuda Skiatron Noontime Thick-Ribbed Treacling Tanzanian Asclepiadic Gambogian Miseducation High-Five Objectivized Ditriglyphs Strabometers Platonizes Arachnoidal Yezidis Horded Ribibles Orbilius Bugwort Fumbles Sea-Lark Untruthfully Strongpoints Order-Paper Unplacing Repentants Misseeming Conciliar Fewer Transgressional Citizeness Razures Entomologists Rafales Exothermically Fini Recapitulates Auto-Suggestion Wispy Veneto Walkman Crypto Fictionalize Latewake Guadalquivir Conferrals Digitoriums Taslets Rectrix Netherlander Ophiolaters Disparked Prosencephalic Vomica Sporulated Putting-Greens Stronger Pulsate Wrinkle Regive Mesmerize Louted Catch Double-Spaces Hoten Imperator Mithridate Capelin Mine-Detectors Connoisseur Absorbed Narrowcast Redeal Jeerings Renewedness Incentivises Exchequer Toazed Lascars Auldest Marginalism Garrisons Relearn Secantly Recommitment Commands Beshame Mezereon Hippest Subarcuations Spaes Tic-Tac Incorrigible Agglutinates Simmental Nepotist Retrorsely Calling-Crab Bonk Mashings Oedipal Bellyached Gorgets Rostand Traitorousness Farrago Colloquying Amation Shamoyed Heptachords Elf-Shot Grotty Glaucescence Lurches Yelping Urls Caged Beck Coste AHYXfa ",
@@ -13,7 +13,9 @@ AOHnoww
 HHWHH
 HaHeHo
 
-"
+",
+"/fourFarsi-ar.urdu",
+"/wasla-ar ٱ"
 );
 axes = (
 {
@@ -55,11 +57,11 @@ value = 1;
 name = "meta Table";
 value = (
 {
-data = "Arab, Latn";
+data = arab;
 tag = dlng;
 },
 {
-data = "Arab, Latn";
+data = latn;
 tag = slng;
 }
 );
@@ -75,8 +77,14 @@ code = "languagesystem DFLT dflt;
 languagesystem arab dflt;
 
 languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
+languagesystem latn CAT;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
@@ -87,6 +95,7 @@ features = (
 automatic = 1;
 code = "feature locl;
 feature ordn;
+feature case;
 feature init;
 feature medi;
 feature fina;
@@ -142,27 +151,50 @@ tag = ccmp;
 },
 {
 code = "script latn;
-language ROM;
+language AZE;
 lookup locl_latn_0 {
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
+	sub i by idotaccent;
 } locl_latn_0;
-language MOL;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
 lookup locl_latn_0;
 
 script latn;
-language NLD;
+language ROM;
 lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language CAT;
+lookup locl_latn_2 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+
+script latn;
+language NLD;
+lookup locl_latn_3 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_1;
+} locl_latn_3;
+
 lookup locl_arab_0 {
 	script arab;
 	language URD;
 	sub fourFarsi-ar by fourFarsi-ar.urdu;
 	sub sixFarsi-ar by six-ar;
 	sub sevenFarsi-ar by sevenFarsi-ar.urdu;
-} locl_arab_0;";
+} locl_arab_0;
+";
 tag = locl;
 },
 {
@@ -171,6 +203,12 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
 },
 {
 automatic = 1;
@@ -15975,6 +16013,64 @@ width = 256;
 unicode = 239;
 },
 {
+glyphname = idotaccent;
+lastChange = "2025-12-23 09:55:02 +0000";
+layers = (
+{
+layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-90,-180);
+ref = dotaccentcomb;
+}
+);
+width = 114;
+},
+{
+layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-42,-179);
+ref = dotaccentcomb;
+}
+);
+width = 210;
+},
+{
+layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-53,-150);
+ref = dotaccentcomb;
+}
+);
+width = 188;
+},
+{
+layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-19,-149);
+ref = dotaccentcomb;
+}
+);
+width = 256;
+}
+);
+},
+{
 glyphname = igrave;
 kernLeft = i;
 kernRight = i;
@@ -22598,65 +22694,6 @@ width = 632;
 unicode = 380;
 },
 {
-export = 0;
-glyphname = idotaccent;
-lastChange = "2025-12-22 22:52:02 +0000";
-layers = (
-{
-layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-90,-180);
-ref = dotaccentcomb;
-}
-);
-width = 114;
-},
-{
-layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-42,-179);
-ref = dotaccentcomb;
-}
-);
-width = 210;
-},
-{
-layerId = "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-53,-150);
-ref = dotaccentcomb;
-}
-);
-width = 188;
-},
-{
-layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-19,-149);
-ref = dotaccentcomb;
-}
-);
-width = 256;
-}
-);
-},
-{
 glyphname = ordfeminine;
 kernLeft = a;
 kernRight = a;
@@ -22749,7 +22786,7 @@ unicode = 186;
 {
 color = 4;
 glyphname = "hamza-ar";
-lastChange = "2025-05-31 15:11:42 +0000";
+lastChange = "2025-12-23 10:07:55 +0000";
 layers = (
 {
 anchors = (
@@ -22819,7 +22856,7 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(136,0,l),
+(136,10,l),
 (136,140,ls),
 (136,236,o),
 (184,284,o),
@@ -22830,7 +22867,7 @@ nodes = (
 (164,314,o),
 (106,256,o),
 (106,140,cs),
-(106,0,l)
+(106,10,l)
 );
 },
 {
@@ -22917,7 +22954,7 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(102,0,l),
+(102,10,l),
 (102,187,ls),
 (102,260.333,o),
 (138.667,297,o),
@@ -22928,7 +22965,7 @@ nodes = (
 (118.667,327,o),
 (72,280.333,o),
 (72,187,cs),
-(72,0,l)
+(72,10,l)
 );
 },
 {
@@ -35224,7 +35261,7 @@ width = 626;
 {
 color = 4;
 glyphname = "qafDotless-ar";
-lastChange = "2025-05-31 21:48:42 +0000";
+lastChange = "2025-12-23 10:02:02 +0000";
 layers = (
 {
 anchors = (
@@ -39231,7 +39268,7 @@ width = 340;
 {
 color = 4;
 glyphname = "noonghunna-ar";
-lastChange = "2025-05-31 15:11:22 +0000";
+lastChange = "2025-12-23 10:02:50 +0000";
 layers = (
 {
 anchors = (
@@ -40667,7 +40704,7 @@ metricRight = "kashida-ar";
 },
 {
 glyphname = "hehgoal-ar.medi";
-lastChange = "2025-05-31 15:22:18 +0000";
+lastChange = "2025-12-23 10:20:42 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -40919,11 +40956,10 @@ width = 972;
 }
 );
 metricLeft = "kashida-ar";
-unicode = 64425;
 },
 {
 glyphname = "hehgoal-ar.init";
-lastChange = "2025-05-27 23:35:00 +0000";
+lastChange = "2025-12-23 10:20:42 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -40978,7 +41014,6 @@ ref = "comma-ar";
 width = 340;
 }
 );
-unicode = 64424;
 },
 {
 glyphname = "hehgoalHamzaabove-ar";
@@ -43392,7 +43427,7 @@ unicode = 1746;
 {
 color = 4;
 glyphname = "yehbarree-ar.fina";
-lastChange = "2025-05-27 23:35:44 +0000";
+lastChange = "2025-12-23 10:20:42 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -43484,7 +43519,6 @@ width = 377;
 }
 );
 metricLeft = "alef-ar";
-unicode = 64431;
 },
 {
 glyphname = "yehbarreeHamzaabove-ar";
@@ -43547,7 +43581,7 @@ unicode = 1747;
 },
 {
 glyphname = "yehbarreeHamzaabove-ar.fina";
-lastChange = "2025-05-27 23:35:55 +0000";
+lastChange = "2025-12-23 10:20:42 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -43602,7 +43636,6 @@ ref = "hamzaabove-ar";
 width = 767;
 }
 );
-unicode = 64433;
 },
 {
 glyphname = "ae-ar";
@@ -48817,7 +48850,7 @@ unicode = 1779;
 },
 {
 glyphname = "fourFarsi-ar";
-lastChange = "2025-12-22 23:31:20 +0000";
+lastChange = "2025-12-23 09:54:41 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -48828,27 +48861,27 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(472,281,l),
-(472,480,l),
-(472,480,o),
-(472,480,o),
-(472,480,c),
-(712,480,l),
-(712,640,l),
-(392,640,ls),
-(341,640,o),
-(312,611,o),
-(312,560,cs),
-(312,281,l)
+(462,281,l),
+(462,480,l),
+(462,480,o),
+(462,480,o),
+(462,480,c),
+(702,480,l),
+(702,640,l),
+(382,640,ls),
+(331,640,o),
+(302,611,o),
+(302,560,cs),
+(302,281,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(220,0,l),
-(220,630,l),
-(60,630,l),
-(60,0,l)
+(210,0,l),
+(210,630,l),
+(50,630,l),
+(50,0,l)
 );
 },
 {
@@ -48857,10 +48890,10 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(768,271,l),
-(768,431,l),
-(142,431,l),
-(142,271,l)
+(758,271,l),
+(758,431,l),
+(132,431,l),
+(132,271,l)
 );
 }
 );
@@ -48922,27 +48955,27 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(437,281,l),
-(437,480,l),
-(437,480,o),
-(437,480,o),
-(437,480,c),
-(597,480,l),
-(597,640,l),
-(357,640,ls),
-(305,640,o),
-(277,612,o),
-(277,560,cs),
-(277,281,l)
+(427,281,l),
+(427,480,l),
+(427,480,o),
+(427,480,o),
+(427,480,c),
+(587,480,l),
+(587,640,l),
+(347,640,ls),
+(295,640,o),
+(267,612,o),
+(267,560,cs),
+(267,281,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(220,0,l),
-(220,630,l),
-(60,630,l),
-(60,0,l)
+(210,0,l),
+(210,630,l),
+(50,630,l),
+(50,0,l)
 );
 },
 {
@@ -48951,10 +48984,10 @@ strokePos = "1";
 };
 closed = 1;
 nodes = (
-(642,271,l),
-(642,431,l),
-(141,431,l),
-(141,271,l)
+(632,271,l),
+(632,431,l),
+(131,431,l),
+(131,271,l)
 );
 }
 );
@@ -49415,7 +49448,7 @@ unicode = 1785;
 {
 color = 0;
 glyphname = "fourFarsi-ar.urdu";
-lastChange = "2025-12-22 23:31:23 +0000";
+lastChange = "2025-12-23 10:20:33 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -49424,7 +49457,7 @@ shapes = (
 ref = "fourFarsi-ar";
 }
 );
-width = 828;
+width = 818;
 },
 {
 layerId = "A1E4B453-6299-48B5-AC61-B31B01EA2EEB";
@@ -49458,7 +49491,7 @@ width = 557;
 {
 color = 0;
 glyphname = "sevenFarsi-ar.urdu";
-lastChange = "2025-12-22 23:30:16 +0000";
+lastChange = "2025-12-23 10:20:35 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -55256,9 +55289,8 @@ width = 410;
 unicode = 92;
 },
 {
-export = 0;
 glyphname = periodcentered.loclCAT;
-lastChange = "2025-12-22 22:51:56 +0000";
+lastChange = "2025-12-23 09:54:55 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -55303,9 +55335,8 @@ width = 250;
 );
 },
 {
-export = 0;
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2025-12-22 23:35:19 +0000";
+lastChange = "2025-12-23 09:54:57 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
