@@ -22,7 +22,7 @@ familyName: "Firjar"
 outputDir: ../fonts
 vfDir: $outputDir/variable
 ttDir: $outputDir/ttf
-otDir: $outputDir/otf
+# otDir: $outputDir/otf
 woffDir: $outputDir/webfonts
 
 # The following entries, which are either "true" or "false"
@@ -105,5 +105,3 @@ stat:
       value: 700
     - name: ExtraBold
       value: 800
-    - name: Black
-      value: 900

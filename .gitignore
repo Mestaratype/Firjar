@@ -5,7 +5,6 @@ build.stamp
 proof
 badges
 fontspector
-fonts
 node_modules
 package-lock.json
 package.json
