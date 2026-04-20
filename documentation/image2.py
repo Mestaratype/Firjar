@@ -34,9 +34,9 @@ FONT_LINE_5 = "fonts/ttf/Firjar-Bold.ttf"
 LINE_6 = "Learning in childhood is like engraving on stone"
 FONT_LINE_6 = "fonts/ttf/Firjar-Bold.ttf"
 LINE_7 = "العلم في الصغر كالنقش على الحجر"
-FONT_LINE_7 = "fonts/ttf/Firjar-Black.ttf"
+FONT_LINE_7 = "fonts/ttf/Firjar-ExtraBold.ttf"
 LINE_8 = "Learning in childhood is like engraving on stone"
-FONT_LINE_8 = "fonts/ttf/Firjar-Black.ttf"
+FONT_LINE_8 = "fonts/ttf/Firjar-ExtraBold.ttf"
 BIG_TEXT_FONT_SIZE = 72
 
 GRID_VIEW = False  # Toggle this for a grid overlay

@@ -30,6 +30,7 @@ args = parser.parse_args()
 # Load the font with the parts of fonttools that are imported with the line:
 # from fontTools.ttLib import TTFont
 # Docs Link: https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html
+FONT_PATH = "fonts/ttf/Firjar-Regular.ttf"
 ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
@@ -76,7 +77,7 @@ def draw_background():
 def draw_image():
     draw_background()
     stroke(None)
-    font("../fonts/variable/Firjar[wdth,wght].ttf")
+    font("fonts/variable/Firjar[wdth,wght].ttf")
     fontSize(MARGIN * 1.25)
     fontVariations(wght=700)
     fontVariations(wdth=100)
