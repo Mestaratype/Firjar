@@ -25,17 +25,17 @@ The concept of Firjar design is inspired by the compass’s capabilities, which 
 
 ## Variable Font Axes
 
-The typeface spans a wide range of styles, from condensed to extended widths and from thin to black weights, making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
+The typeface spans a wide range of styles, from condensed to extended widths and from thin to ExtraBold weights, making it highly versatile for bold headlines, branding, user interfaces, editorial design, and display applications.
 
 Firjar has the following axes:
 
 | Axis | Tag | Range | Default | Static Instances |
 | --- | --- | --- | --- | --- |
-| Weight | wght | 100 to 900 | 400 | Thin, ExtraLight, Light, Regular, Semibold, Bold, Black |
+| Weight | wght | 100 to 800 | 400 | Thin, ExtraLight, Light, Regular, Medium, Semibold, Bold, ExtraBold |
 | Width | wdth | 75 to 125 | 100 | Condensed, SemiCondensed, Regular, SemiExpanded, Expanded |
 
 #### `wght` (Weight) Axis
-The `wght` axis spans Thin (100) to Black (900).
+The `wght` axis spans Thin (100) to ExtraBold (800).
 ![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
 
 #### `wdth` (Width) Axis
