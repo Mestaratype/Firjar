@@ -1,12 +1,6 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-"2",
-"ور/reh-ar.fina",
-"ٯ/qafDotless-ar.fina و/waw-ar.fina رعن",
-"رٯ/qafDotless-ar.fina لمں/noonghunna-ar.fina و/waw-ar.fina"
-);
 axes = (
 {
 name = Width;
@@ -78264,5 +78258,5 @@ O,
 };
 };
 versionMajor = 2;
-versionMinor = 301;
+versionMinor = 960;
 }
