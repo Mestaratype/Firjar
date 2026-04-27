@@ -18,7 +18,7 @@ F = 64  # Frames (Animation)
 
 
 # REMAP INPUT RANGE TO VARIABLE FONT AXIS RANGE
-# (E.G. SINE WAVE(-1,1) to WGHT(100,900))
+# (E.G. SINE WAVE(-1,1) to WGHT(100,800))
 def remap(value, input_min, input_max, output_min, output_max):
     input_span = input_max - input_min  # FIND INPUT RANGE SPAN
     output_span = output_max - output_min  # FIND OUTPUT RANGE SPAN
@@ -79,7 +79,7 @@ for frame in range(F - 1):
     fontSize(U * 3.5)
     stroke(None)
     fill(0.0, 1.0, 0.258)
-    varWght = remap(sin(step), -1, 1, 100, 900)
+    varWght = remap(sin(step), -1, 1, 100, 800)
     varWdth = remap(sin(step), -1, 1, 75, 125)
     fontVariations(wght=varWght)
     fontVariations(wdth=100)
@@ -92,7 +92,7 @@ for frame in range(F - 1):
     fontVariations(wdth=100)
     stroke(None)
     fontSize(U / 1.5)
-    text("Firjar Variable Font: Weight Axis Range (100 - 900) wght = ", (M, U * 6.25))
+    text("Firjar Variable Font: Weight Axis Range (100 - 800) wght = ", (M, U * 6.25))
     text(str(int(varWght)), (M * 12.5, U * 6.25))
     stroke(1)
     strokeWidth(2)
