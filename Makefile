@@ -21,9 +21,26 @@ venv: venv/touchfile
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
-build.stamp: venv sources/config.yaml $(SOURCES)
+# Raw gftools-builder output, before the fvar-default fixup below.
+# Masters only exist at the wdth/wght axis extremes, so gftools/glyphsLib
+# cannot place the fvar default at wdth=100/wght=400 (Google Fonts'
+# required default) on its own -- see build.stamp.
+build_old.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
+	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build_old.stamp
+
+# Post-build fixup: relocates each variable font's fvar default to
+# wdth=100/wght=400 via scripts/fix_vf_default.py (fontTools varLib.instancer
+# recomputes real gvar deltas at the new default, then name/OS2/head are
+# corrected to match). This is what `build`, `test`, `proof` and the
+# specimen images actually consume. See scripts/fix_vf_default.py for why
+# this can't be done in sources/config.yaml alone.
+build.stamp: build_old.stamp scripts/fix_vf_default.py
+	. venv/bin/activate; for vf in fonts/variable/*.ttf; do \
+		[ -f "$$vf" ] || continue; \
+		python3 scripts/fix_vf_default.py "$$vf"; \
+	done
+	touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
@@ -44,6 +61,7 @@ images: venv $(DRAWBOT_OUTPUT)
 
 clean:
 	rm -rf venv
+	rm -f build_old.stamp build.stamp
 	find . -name "*.pyc" -delete
 
 update-project-template:

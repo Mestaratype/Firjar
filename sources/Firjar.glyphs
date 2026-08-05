@@ -1,6 +1,9 @@
 {
-.appVersion = "3525";
+.appVersion = "3530";
 .formatVersion = 3;
+DisplayStrings = (
+"ث"
+);
 axes = (
 {
 name = Width;
@@ -55,9 +58,9 @@ name = "Axis Mappings";
 value = {
 wdth = {
 75 = 75;
-87.5 = 87.5;
-100 = 100;
-112.5 = 112.5;
+87.5 = 85;
+100 = 96;
+112.5 = 110;
 125 = 125;
 };
 wght = {
@@ -725,7 +728,7 @@ Location = 75;
 },
 {
 Axis = Weight;
-Location = 900;
+Location = 800;
 }
 );
 }
@@ -851,7 +854,7 @@ Location = 125;
 },
 {
 Axis = Weight;
-Location = 900;
+Location = 800;
 }
 );
 }
@@ -16709,7 +16712,7 @@ unicode = 105;
 glyphname = idotless;
 kernLeft = i;
 kernRight = i;
-lastChange = "2026-04-21 20:28:15 +0000";
+lastChange = "2026-07-28 14:25:03 +0000";
 layers = (
 {
 anchors = (
@@ -16777,7 +16780,7 @@ pos = (102,0);
 },
 {
 name = ogonek;
-pos = (172,10);
+pos = (168,0);
 },
 {
 name = top;
@@ -17201,7 +17204,7 @@ unicode = 299;
 glyphname = iogonek;
 kernLeft = i;
 kernRight = i;
-lastChange = "2026-04-21 20:33:05 +0000";
+lastChange = "2026-07-28 14:25:03 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -17248,7 +17251,7 @@ pos = (-45,-140);
 ref = dotaccentcomb;
 },
 {
-pos = (28,10);
+pos = (24,0);
 ref = ogonekcomb;
 }
 );
@@ -22307,7 +22310,7 @@ unicode = 371;
 glyphname = uring;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-04-21 20:33:05 +0000";
+lastChange = "2026-07-28 14:26:43 +0000";
 layers = (
 {
 layerId = "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3";
@@ -52717,7 +52720,7 @@ unicode = 50;
 glyphname = three;
 kernLeft = three;
 kernRight = three;
-lastChange = "2026-04-21 13:17:47 +0000";
+lastChange = "2026-07-28 14:20:14 +0000";
 layers = (
 {
 layerId = "71E51144-4680-4E23-982C-DE3E5ABB4D1F";
@@ -52725,8 +52728,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(332,-8,ls),
-(442,-8,o),
+(332,0,ls),
+(442,0,o),
 (531,79,o),
 (531,192,cs),
 (531,202,ls),
@@ -52742,7 +52745,7 @@ nodes = (
 (347,152,o),
 (332,152,cs),
 (40,152,l),
-(40,-8,l)
+(40,0,l)
 );
 },
 {
@@ -52754,9 +52757,9 @@ nodes = (
 (516,442,cs),
 (516,448,ls),
 (516,561,o),
-(426,648,o),
-(316,648,cs),
-(50,648,l),
+(426,640,o),
+(316,640,cs),
+(50,640,l),
 (50,488,l),
 (316,488,ls),
 (331,488,o),
@@ -74300,8 +74303,6 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.40714;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.59286;
 };
-isBold = 1;
-linkStyle = Condensed;
 name = "Condensed SemiBold";
 properties = (
 {
@@ -74341,6 +74342,8 @@ instanceInterpolations = {
 "3CC93672-F71B-4D5C-A968-72DE9C2CEAD3" = 0.24286;
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.75714;
 };
+isBold = 1;
+linkStyle = Condensed;
 name = "Condensed Bold";
 properties = (
 {
@@ -74631,8 +74634,6 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.47429;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.08143;
 };
-isBold = 1;
-linkStyle = SemiCondensed;
 name = "SemiCondensed SemiBold";
 properties = (
 {
@@ -74674,6 +74675,8 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.60571;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.04857;
 };
+isBold = 1;
+linkStyle = SemiCondensed;
 name = "SemiCondensed Bold";
 properties = (
 {
@@ -75015,7 +75018,6 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.34386;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.171;
 };
-isBold = 1;
 name = SemiBold;
 properties = (
 {
@@ -75061,6 +75063,7 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.43914;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.102;
 };
+isBold = 1;
 name = Bold;
 properties = (
 {
@@ -75355,8 +75358,6 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.17786;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.285;
 };
-isBold = 1;
-linkStyle = SemiExpanded;
 name = "SemiExpanded SemiBold";
 properties = (
 {
@@ -75398,6 +75399,8 @@ instanceInterpolations = {
 "8544E31D-FA38-4D18-9DEA-5E3E35DDFD01" = 0.22714;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.17;
 };
+isBold = 1;
+linkStyle = SemiExpanded;
 name = "SemiExpanded Bold";
 properties = (
 {
@@ -75678,8 +75681,6 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.59286;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.40714;
 };
-isBold = 1;
-linkStyle = Expanded;
 name = "Expanded SemiBold";
 properties = (
 {
@@ -75719,6 +75720,8 @@ instanceInterpolations = {
 "71E51144-4680-4E23-982C-DE3E5ABB4D1F" = 0.75714;
 "A1E4B453-6299-48B5-AC61-B31B01EA2EEB" = 0.24286;
 };
+isBold = 1;
+linkStyle = Expanded;
 name = "Expanded Bold";
 properties = (
 {
