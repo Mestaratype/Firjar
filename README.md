@@ -29,18 +29,20 @@ The typeface spans a wide range of styles, from condensed to extended widths and
 
 Firjar has the following axes:
 
-| Axis | Tag | Range | Default | Static Instances |
-| --- | --- | --- | --- | --- |
-| Weight | wght | 100 to 800 | 400 | Thin, ExtraLight, Light, Regular, Medium, Semibold, Bold, ExtraBold |
-| Width | wdth | 75 to 125 | 100 | Condensed, SemiCondensed, Regular, SemiExpanded, Expanded |
+| Axis | Tag | Range | Named styles |
+| --- | --- | --- | --- |
+| Weight | wght | 100 to 800 | Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold |
+| Width | wdth | 75 to 125 | Condensed, SemiCondensed, Normal, SemiExpanded, Expanded |
+
+The variable font's named styles (Thin to ExtraBold) are at Normal width (100); the other widths are available through the width axis. Static fonts are provided for every width as separate families: Firjar, Firjar Condensed, Firjar SemiCondensed, Firjar SemiExpanded and Firjar Expanded.
 
 #### `wght` (Weight) Axis
 The `wght` axis spans Thin (100) to ExtraBold (800).
-![Sample Image](documentation/animated/weight-axis-animation-comp.gif)
+![Sample Image](documentation/animated/weight-axis-animation.gif)
 
 #### `wdth` (Width) Axis
 The `wdth` axis spans Condensed (75) to Expanded (125).
-![Sample Image](documentation/animated/width-axis-animation-comp.gif)
+![Sample Image](documentation/animated/width-axis-animation.gif)
 
 
 ## About
@@ -54,10 +56,12 @@ Fonts are built automatically by GitHub Actions - take a look in the "Actions" t
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+* `make test` will run [Fontspector](https://github.com/fonttools/fontspector)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at (https://mestaratype.github.io/Firjar/).
+Building requires Python 3.11. `make test` needs [fontspector](https://github.com/fonttools/fontspector) and `make proof` needs [diffenator3](https://github.com/googlefonts/diffenator3) installed on your computer.
+
+The proof files and QA tests are also available automatically via GitHub Actions at https://mestaratype.github.io/Firjar/
 
 
 ## Contributing

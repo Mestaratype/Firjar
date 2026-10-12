@@ -40,3 +40,7 @@ Thumbs.db
 *(Otomatik Kaydedildi).*
 *（自动存储）.*
 *（已自動儲存）.*
+
+# Old / archived sources (kept locally only)
+sources/archive/
+__pycache__/

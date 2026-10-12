@@ -1,12 +1,16 @@
-# RENDER THIS DOCUMENT WITH DRAWBOT: https://www.drawbot.com
-# $ pip install git+https://github.com/typemytype/drawbot
-# $ gifsicle -i animated-vf-specimen-001.gif -O3 --colors 32 -o anim-001.gif
+# Rendered with drawbot-skia by `make images`, or run from the repository root:
+# $ python3 documentation/animated/weight-axis-animation.py --output documentation/animated/weight-axis-animation.gif
+# The GIF is compressed with gifsicle automatically (see gif_tools.py).
 
 # Note: The monospace font Input is used in this document and needs
 # to be installed for an exact rebuild: https://input.fontbureau.com/
 
-from drawBot import *
-import math
+from drawbot_skia.drawbot import *
+from math import sin
+
+from gif_tools import parse_output, save_gif
+
+OUTPUT = parse_output("documentation/animated/weight-axis-animation.gif")
 
 
 # CONSTANTS
@@ -57,7 +61,7 @@ newDrawing()
 
 
 # TEST FONTS
-# font("../../fonts/variable/Firjar[wdth,wght].ttf")
+# font("fonts/variable/Firjar[wdth,wght].ttf")
 # for axis, data in listFontVariations().items():
 #    print((axis, data))
 # for eachFontName in installedFonts():
@@ -75,7 +79,7 @@ for frame in range(F - 1):
     new_page()
     #grid()  # Toggle for grid view
     #print("Sine step:", sin(step))
-    font("../../fonts/variable/Firjar[wdth,wght].ttf")
+    font("fonts/variable/Firjar[wdth,wght].ttf")
     fontSize(U * 3.5)
     stroke(None)
     fill(0.0, 1.0, 0.258)
@@ -87,7 +91,7 @@ for frame in range(F - 1):
     step += 0.1
     # AUXILIARY TEXT INFO
     fill(1)
-    font("../../fonts/variable/Firjar[wdth,wght].ttf")
+    font("fonts/variable/Firjar[wdth,wght].ttf")
     fontVariations(wght=400)
     fontVariations(wdth=100)
     stroke(None)
@@ -98,8 +102,8 @@ for frame in range(F - 1):
     strokeWidth(2)
     line((M, H - M-10), (W - M, H - M-10))
 
-# SAVE THE ANIMATION IN THIS SCRIPT'S DIRECTORY
-saveImage("weight-axis-animation.gif")
+# SAVE THE ANIMATION
+save_gif(OUTPUT)
 
 # END DRAWBOT
 endDrawing()
