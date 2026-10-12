@@ -42,17 +42,23 @@ build.stamp: build_old.stamp scripts/fix_vf_default.py
 	done
 	touch build.stamp
 
+# requirements.txt is resolved for Python 3.11 (same as GitHub Actions).
+PYTHON ?= python3.11
+
 venv/touchfile: requirements.txt
-	test -d venv || python3 -m venv venv
+	@which $(PYTHON) >/dev/null || (echo "$(PYTHON) not found. Install it with 'brew install python@3.11'." && exit 1)
+	test -d venv || $(PYTHON) -m venv venv
+	. venv/bin/activate; pip install --upgrade pip
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
 test: build.stamp
-	which fontspector || (echo "fontspector not found. Please install it with 'cargo install fontspector'." && exit 1)
+	which fontspector || (echo "fontspector not found. Please install it with 'cargo binstall fontspector'." && exit 1)
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/fontspector-report.html --ghmarkdown out/fontspector/fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
+	which diff3proof || (echo "diff3proof not found. Please install it with 'cargo binstall diffenator3'." && exit 1)
+	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diff3proof $$TOCHECK --output out/proof
 
 images: venv $(DRAWBOT_OUTPUT)
 
@@ -68,11 +74,12 @@ update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
 update: venv
-	venv/bin/pip install --upgrade pip-tools
-	# See https://pip-tools.readthedocs.io/en/latest/#a-note-on-resolvers for
-	# the `--resolver` flag below.
-	venv/bin/pip-compile --upgrade --verbose --resolver=backtracking requirements.in
-	venv/bin/pip-sync requirements.txt
+	venv/bin/pip install --upgrade uv
+	# Resolve for the GitHub Actions runner (Ubuntu, Python 3.11), not the
+	# local machine, so pins that only work on macOS can't sneak in.
+	venv/bin/uv pip compile requirements.in --upgrade --python-version 3.11 \
+		--python-platform x86_64-manylinux_2_28 --custom-compile-command "make update" \
+		-o requirements.txt
 
 	git commit -m "Update requirements" requirements.txt
 	git push
